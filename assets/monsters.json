@@ -1,0 +1,1872 @@
+{
+    "Oni": {
+        "name": "Oni",
+        "path": "assets/monsters/Oni.webp",
+        "role": "enemy"
+    },
+    "Gladiator": {
+        "name": "Gladiator",
+        "path": "assets/monsters/Gladiator.webp",
+        "role": "enemy"
+    },
+    "Poisonous Snake": {
+        "name": "Poisonous Snake",
+        "path": "assets/monsters/Poisonous Snake.webp",
+        "role": "enemy"
+    },
+    "Fire Elemental": {
+        "name": "Fire Elemental",
+        "path": "assets/monsters/Fire Elemental.webp",
+        "role": "enemy"
+    },
+    "Gelatinous Cube": {
+        "name": "Gelatinous Cube",
+        "path": "assets/monsters/Gelatinous Cube.webp",
+        "role": "enemy"
+    },
+    "Shadow Demon": {
+        "name": "Shadow Demon",
+        "path": "assets/monsters/Shadow Demon.webp",
+        "role": "enemy"
+    },
+    "Young Black Dragon": {
+        "name": "Young Black Dragon",
+        "path": "assets/monsters/Young Black Dragon.webp",
+        "role": "enemy"
+    },
+    "Cat": {
+        "name": "Cat",
+        "path": "assets/monsters/Cat.webp",
+        "role": "enemy"
+    },
+    "Rhinoceros": {
+        "name": "Rhinoceros",
+        "path": "assets/monsters/Rhinoceros.webp",
+        "role": "enemy"
+    },
+    "Flesh Golem": {
+        "name": "Flesh Golem",
+        "path": "assets/monsters/Flesh Golem.webp",
+        "role": "enemy"
+    },
+    "Hippogriff": {
+        "name": "Hippogriff",
+        "path": "assets/monsters/Hippogriff.webp",
+        "role": "enemy"
+    },
+    "Centaur": {
+        "name": "Centaur",
+        "path": "assets/monsters/Centaur.webp",
+        "role": "enemy"
+    },
+    "Helmed Horror": {
+        "name": "Helmed Horror",
+        "path": "assets/monsters/Helmed Horror.webp",
+        "role": "enemy"
+    },
+    "Acolyte": {
+        "name": "Acolyte",
+        "path": "assets/monsters/Acolyte.webp",
+        "role": "enemy"
+    },
+    "Peryton": {
+        "name": "Peryton",
+        "path": "assets/monsters/Peryton.webp",
+        "role": "enemy"
+    },
+    "Yuan-ti Abomination": {
+        "name": "Yuan-ti Abomination",
+        "path": "assets/monsters/Yuan-ti Abomination.webp",
+        "role": "enemy"
+    },
+    "Mezzoloth": {
+        "name": "Mezzoloth",
+        "path": "assets/monsters/Mezzoloth.webp",
+        "role": "enemy"
+    },
+    "Spined Devil": {
+        "name": "Spined Devil",
+        "path": "assets/monsters/Spined Devil.webp",
+        "role": "enemy"
+    },
+    "Rust Monster": {
+        "name": "Rust Monster",
+        "path": "assets/monsters/Rust Monster.webp",
+        "role": "enemy"
+    },
+    "Giant Toad": {
+        "name": "Giant Toad",
+        "path": "assets/monsters/Giant Toad.webp",
+        "role": "enemy"
+    },
+    "Chuul": {
+        "name": "Chuul",
+        "path": "assets/monsters/Chuul.webp",
+        "role": "enemy"
+    },
+    "Flying Sword": {
+        "name": "Flying Sword",
+        "path": "assets/monsters/Flying Sword.webp",
+        "role": "enemy"
+    },
+    "Sahuagin Priestess": {
+        "name": "Sahuagin Priestess",
+        "path": "assets/monsters/Sahuagin Priestess.webp",
+        "role": "enemy"
+    },
+    "Crawling Claw": {
+        "name": "Crawling Claw",
+        "path": "assets/monsters/Crawling Claw.webp",
+        "role": "enemy"
+    },
+    "Bronze Dragon Wyrmling": {
+        "name": "Bronze Dragon Wyrmling",
+        "path": "assets/monsters/Bronze Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Swarm of Centipedes": {
+        "name": "Swarm of Centipedes",
+        "path": "assets/monsters/Swarm of Centipedes.webp",
+        "role": "enemy"
+    },
+    "Drow Priestess of Lolth": {
+        "name": "Drow Priestess of Lolth",
+        "path": "assets/monsters/Drow Priestess of Lolth.webp",
+        "role": "enemy"
+    },
+    "Constrictor Snake": {
+        "name": "Constrictor Snake",
+        "path": "assets/monsters/Constrictor Snake.webp",
+        "role": "enemy"
+    },
+    "Myconid Adult": {
+        "name": "Myconid Adult",
+        "path": "assets/monsters/Myconid Adult.webp",
+        "role": "enemy"
+    },
+    "Warhorse": {
+        "name": "Warhorse",
+        "path": "assets/monsters/Warhorse.webp",
+        "role": "enemy"
+    },
+    "Pixie": {
+        "name": "Pixie",
+        "path": "assets/monsters/Pixie.webp",
+        "role": "enemy"
+    },
+    "Night Hag": {
+        "name": "Night Hag",
+        "path": "assets/monsters/Night Hag.webp",
+        "role": "enemy"
+    },
+    "Griffon": {
+        "name": "Griffon",
+        "path": "assets/monsters/Griffon.webp",
+        "role": "enemy"
+    },
+    "Carrion Crawler": {
+        "name": "Carrion Crawler",
+        "path": "assets/monsters/Carrion Crawler.webp",
+        "role": "enemy"
+    },
+    "Giant Vulture": {
+        "name": "Giant Vulture",
+        "path": "assets/monsters/Giant Vulture.webp",
+        "role": "enemy"
+    },
+    "Imp": {
+        "name": "Imp",
+        "path": "assets/monsters/Imp.webp",
+        "role": "enemy"
+    },
+    "Crab": {
+        "name": "Crab",
+        "path": "assets/monsters/Crab.webp",
+        "role": "enemy"
+    },
+    "Barlgura": {
+        "name": "Barlgura",
+        "path": "assets/monsters/Barlgura.webp",
+        "role": "enemy"
+    },
+    "Pony": {
+        "name": "Pony",
+        "path": "assets/monsters/Pony.webp",
+        "role": "enemy"
+    },
+    "Bearded Devil": {
+        "name": "Bearded Devil",
+        "path": "assets/monsters/Bearded Devil.webp",
+        "role": "enemy"
+    },
+    "Vulture": {
+        "name": "Vulture",
+        "path": "assets/monsters/Vulture.webp",
+        "role": "enemy"
+    },
+    "Gargoyle": {
+        "name": "Gargoyle",
+        "path": "assets/monsters/Gargoyle.webp",
+        "role": "enemy"
+    },
+    "Black Bear": {
+        "name": "Black Bear",
+        "path": "assets/monsters/Black Bear.webp",
+        "role": "enemy"
+    },
+    "Glabrezu": {
+        "name": "Glabrezu",
+        "path": "assets/monsters/Glabrezu.webp",
+        "role": "enemy"
+    },
+    "Gnoll Fang of Yeenoghu": {
+        "name": "Gnoll Fang of Yeenoghu",
+        "path": "assets/monsters/Gnoll Fang of Yeenoghu.webp",
+        "role": "enemy"
+    },
+    "Red Slaad": {
+        "name": "Red Slaad",
+        "path": "assets/monsters/Red Slaad.webp",
+        "role": "enemy"
+    },
+    "Giant Badger": {
+        "name": "Giant Badger",
+        "path": "assets/monsters/Giant Badger.webp",
+        "role": "enemy"
+    },
+    "Smoke Mephit": {
+        "name": "Smoke Mephit",
+        "path": "assets/monsters/Smoke Mephit.webp",
+        "role": "enemy"
+    },
+    "Wereboar": {
+        "name": "Wereboar",
+        "path": "assets/monsters/Wereboar.webp",
+        "role": "enemy"
+    },
+    "Ape": {
+        "name": "Ape",
+        "path": "assets/monsters/Ape.webp",
+        "role": "enemy"
+    },
+    "Deva": {
+        "name": "Deva",
+        "path": "assets/monsters/Deva.webp",
+        "role": "enemy"
+    },
+    "Ochre Jelly": {
+        "name": "Ochre Jelly",
+        "path": "assets/monsters/Ochre Jelly.webp",
+        "role": "enemy"
+    },
+    "Giant Weasel": {
+        "name": "Giant Weasel",
+        "path": "assets/monsters/Giant Weasel.webp",
+        "role": "enemy"
+    },
+    "Kenku": {
+        "name": "Kenku",
+        "path": "assets/monsters/Kenku.webp",
+        "role": "enemy"
+    },
+    "Earth Elemental": {
+        "name": "Earth Elemental",
+        "path": "assets/monsters/Earth Elemental.webp",
+        "role": "enemy"
+    },
+    "Magma Mephit": {
+        "name": "Magma Mephit",
+        "path": "assets/monsters/Magma Mephit.webp",
+        "role": "enemy"
+    },
+    "Myconid Sprout": {
+        "name": "Myconid Sprout",
+        "path": "assets/monsters/Myconid Sprout.webp",
+        "role": "enemy"
+    },
+    "Ogre": {
+        "name": "Ogre",
+        "path": "assets/monsters/Ogre.webp",
+        "role": "enemy"
+    },
+    "Vrock": {
+        "name": "Vrock",
+        "path": "assets/monsters/Vrock.webp",
+        "role": "enemy"
+    },
+    "Goblin": {
+        "name": "Goblin",
+        "path": "assets/monsters/Goblin.webp",
+        "role": "enemy"
+    },
+    "Werebear": {
+        "name": "Werebear",
+        "path": "assets/monsters/Werebear.webp",
+        "role": "enemy"
+    },
+    "Ice Mephit": {
+        "name": "Ice Mephit",
+        "path": "assets/monsters/Ice Mephit.webp",
+        "role": "enemy"
+    },
+    "Hobgoblin Warlord": {
+        "name": "Hobgoblin Warlord",
+        "path": "assets/monsters/Hobgoblin Warlord.webp",
+        "role": "enemy"
+    },
+    "Quadrone": {
+        "name": "Quadrone",
+        "path": "assets/monsters/Quadrone.webp",
+        "role": "enemy"
+    },
+    "Winged Kobold": {
+        "name": "Winged Kobold",
+        "path": "assets/monsters/Winged Kobold.webp",
+        "role": "enemy"
+    },
+    "Swarm of Insects": {
+        "name": "Swarm of Insects",
+        "path": "assets/monsters/Swarm of Insects.webp",
+        "role": "enemy"
+    },
+    "Ettin": {
+        "name": "Ettin",
+        "path": "assets/monsters/Ettin.webp",
+        "role": "enemy"
+    },
+    "Basilisk": {
+        "name": "Basilisk",
+        "path": "assets/monsters/Basilisk.webp",
+        "role": "enemy"
+    },
+    "Violet Fungus": {
+        "name": "Violet Fungus",
+        "path": "assets/monsters/Violet Fungus.webp",
+        "role": "enemy"
+    },
+    "Tridrone": {
+        "name": "Tridrone",
+        "path": "assets/monsters/Tridrone.webp",
+        "role": "enemy"
+    },
+    "Lizardfolk Shaman": {
+        "name": "Lizardfolk Shaman",
+        "path": "assets/monsters/Lizardfolk Shaman.webp",
+        "role": "enemy"
+    },
+    "Yuan-ti Malison (Type 1)": {
+        "name": "Yuan-ti Malison (Type 1)",
+        "path": "assets/monsters/Yuan-ti Malison (Type 1).webp",
+        "role": "enemy"
+    },
+    "Incubus": {
+        "name": "Incubus",
+        "path": "assets/monsters/Incubus.webp",
+        "role": "enemy"
+    },
+    "Hobgoblin Captain": {
+        "name": "Hobgoblin Captain",
+        "path": "assets/monsters/Hobgoblin Captain.webp",
+        "role": "enemy"
+    },
+    "Wight": {
+        "name": "Wight",
+        "path": "assets/monsters/Wight.webp",
+        "role": "enemy"
+    },
+    "Slaad Tadpole": {
+        "name": "Slaad Tadpole",
+        "path": "assets/monsters/Slaad Tadpole.webp",
+        "role": "enemy"
+    },
+    "Winter Wolf": {
+        "name": "Winter Wolf",
+        "path": "assets/monsters/Winter Wolf.webp",
+        "role": "enemy"
+    },
+    "Noble": {
+        "name": "Noble",
+        "path": "assets/monsters/Noble.webp",
+        "role": "enemy"
+    },
+    "Orc Eye of Gruumsh": {
+        "name": "Orc Eye of Gruumsh",
+        "path": "assets/monsters/Orc Eye of Gruumsh.webp",
+        "role": "enemy"
+    },
+    "Mage": {
+        "name": "Mage",
+        "path": "assets/monsters/Mage.webp",
+        "role": "enemy"
+    },
+    "Sahuagin": {
+        "name": "Sahuagin",
+        "path": "assets/monsters/Sahuagin.webp",
+        "role": "enemy"
+    },
+    "Banshee": {
+        "name": "Banshee",
+        "path": "assets/monsters/Banshee.webp",
+        "role": "enemy"
+    },
+    "Hezrou": {
+        "name": "Hezrou",
+        "path": "assets/monsters/Hezrou.webp",
+        "role": "enemy"
+    },
+    "Bugbear Chief": {
+        "name": "Bugbear Chief",
+        "path": "assets/monsters/Bugbear Chief.webp",
+        "role": "enemy"
+    },
+    "Umber Hulk": {
+        "name": "Umber Hulk",
+        "path": "assets/monsters/Umber Hulk.webp",
+        "role": "enemy"
+    },
+    "Merfolk": {
+        "name": "Merfolk",
+        "path": "assets/monsters/Merfolk.webp",
+        "role": "enemy"
+    },
+    "Displacer Beast": {
+        "name": "Displacer Beast",
+        "path": "assets/monsters/Displacer Beast.webp",
+        "role": "enemy"
+    },
+    "Lizard King": {
+        "name": "Lizard King",
+        "path": "assets/monsters/Lizard King.webp",
+        "role": "enemy"
+    },
+    "Mud Mephit": {
+        "name": "Mud Mephit",
+        "path": "assets/monsters/Mud Mephit.webp",
+        "role": "enemy"
+    },
+    "Bone Devil": {
+        "name": "Bone Devil",
+        "path": "assets/monsters/Bone Devil.webp",
+        "role": "enemy"
+    },
+    "Minotaur Skeleton": {
+        "name": "Minotaur Skeleton",
+        "path": "assets/monsters/Minotaur Skeleton.webp",
+        "role": "enemy"
+    },
+    "Gibbering Mouther": {
+        "name": "Gibbering Mouther",
+        "path": "assets/monsters/Gibbering Mouther.webp",
+        "role": "enemy"
+    },
+    "Saber-Toothed Tiger": {
+        "name": "Saber-Toothed Tiger",
+        "path": "assets/monsters/Saber-Toothed Tiger.webp",
+        "role": "enemy"
+    },
+    "Flameskull": {
+        "name": "Flameskull",
+        "path": "assets/monsters/Flameskull.webp",
+        "role": "enemy"
+    },
+    "Worg": {
+        "name": "Worg",
+        "path": "assets/monsters/Worg.webp",
+        "role": "enemy"
+    },
+    "Giant Hyena": {
+        "name": "Giant Hyena",
+        "path": "assets/monsters/Giant Hyena.webp",
+        "role": "enemy"
+    },
+    "Troglodyte": {
+        "name": "Troglodyte",
+        "path": "assets/monsters/Troglodyte.webp",
+        "role": "enemy"
+    },
+    "Scorpion": {
+        "name": "Scorpion",
+        "path": "assets/monsters/Scorpion.webp",
+        "role": "enemy"
+    },
+    "Shield Guardian": {
+        "name": "Shield Guardian",
+        "path": "assets/monsters/Shield Guardian.webp",
+        "role": "enemy"
+    },
+    "Fire Snake": {
+        "name": "Fire Snake",
+        "path": "assets/monsters/Fire Snake.webp",
+        "role": "enemy"
+    },
+    "Boar": {
+        "name": "Boar",
+        "path": "assets/monsters/Boar.webp",
+        "role": "enemy"
+    },
+    "Phase Spider": {
+        "name": "Phase Spider",
+        "path": "assets/monsters/Phase Spider.webp",
+        "role": "enemy"
+    },
+    "Zombie": {
+        "name": "Zombie",
+        "path": "assets/monsters/Zombie.webp",
+        "role": "enemy"
+    },
+    "Blue Dragon Wyrmling": {
+        "name": "Blue Dragon Wyrmling",
+        "path": "assets/monsters/Blue Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Giant Frog": {
+        "name": "Giant Frog",
+        "path": "assets/monsters/Giant Frog.webp",
+        "role": "enemy"
+    },
+    "Tribal Warrior": {
+        "name": "Tribal Warrior",
+        "path": "assets/monsters/Tribal Warrior.webp",
+        "role": "enemy"
+    },
+    "Faerie Dragon": {
+        "name": "Faerie Dragon",
+        "path": "assets/monsters/Faerie Dragon.webp",
+        "role": "enemy"
+    },
+    "Red Dragon Wyrmling": {
+        "name": "Red Dragon Wyrmling",
+        "path": "assets/monsters/Red Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Aarakocra": {
+        "name": "Aarakocra",
+        "path": "assets/monsters/Aarakocra.webp",
+        "role": "enemy"
+    },
+    "Stone Golem": {
+        "name": "Stone Golem",
+        "path": "assets/monsters/Stone Golem.webp",
+        "role": "enemy"
+    },
+    "White Dragon Wyrmling": {
+        "name": "White Dragon Wyrmling",
+        "path": "assets/monsters/White Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Skeleton": {
+        "name": "Skeleton",
+        "path": "assets/monsters/Skeleton.webp",
+        "role": "enemy"
+    },
+    "Satyr": {
+        "name": "Satyr",
+        "path": "assets/monsters/Satyr.webp",
+        "role": "enemy"
+    },
+    "Revenant": {
+        "name": "Revenant",
+        "path": "assets/monsters/Revenant.webp",
+        "role": "enemy"
+    },
+    "Roper": {
+        "name": "Roper",
+        "path": "assets/monsters/Roper.webp",
+        "role": "enemy"
+    },
+    "Brown Bear": {
+        "name": "Brown Bear",
+        "path": "assets/monsters/Brown Bear.webp",
+        "role": "enemy"
+    },
+    "Scarecrow": {
+        "name": "Scarecrow",
+        "path": "assets/monsters/Scarecrow.webp",
+        "role": "enemy"
+    },
+    "Sahuagin Baron": {
+        "name": "Sahuagin Baron",
+        "path": "assets/monsters/Sahuagin Baron.webp",
+        "role": "enemy"
+    },
+    "Giant Spider": {
+        "name": "Giant Spider",
+        "path": "assets/monsters/Giant Spider.webp",
+        "role": "enemy"
+    },
+    "Shadow": {
+        "name": "Shadow",
+        "path": "assets/monsters/Shadow.webp",
+        "role": "enemy"
+    },
+    "Gas Spore": {
+        "name": "Gas Spore",
+        "path": "assets/monsters/Gas Spore.webp",
+        "role": "enemy"
+    },
+    "Manticore": {
+        "name": "Manticore",
+        "path": "assets/monsters/Manticore.webp",
+        "role": "enemy"
+    },
+    "Weretiger": {
+        "name": "Weretiger",
+        "path": "assets/monsters/Weretiger.webp",
+        "role": "enemy"
+    },
+    "Hook Horror": {
+        "name": "Hook Horror",
+        "path": "assets/monsters/Hook Horror.webp",
+        "role": "enemy"
+    },
+    "Green Dragon Wyrmling": {
+        "name": "Green Dragon Wyrmling",
+        "path": "assets/monsters/Green Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Axe Beak": {
+        "name": "Axe Beak",
+        "path": "assets/monsters/Axe Beak.webp",
+        "role": "enemy"
+    },
+    "Bulette": {
+        "name": "Bulette",
+        "path": "assets/monsters/Bulette.webp",
+        "role": "enemy"
+    },
+    "Shambling Mound": {
+        "name": "Shambling Mound",
+        "path": "assets/monsters/Shambling Mound.webp",
+        "role": "enemy"
+    },
+    "Giant Eagle": {
+        "name": "Giant Eagle",
+        "path": "assets/monsters/Giant Eagle.webp",
+        "role": "enemy"
+    },
+    "Yuan-ti Pureblood": {
+        "name": "Yuan-ti Pureblood",
+        "path": "assets/monsters/Yuan-ti Pureblood.webp",
+        "role": "enemy"
+    },
+    "Medusa": {
+        "name": "Medusa",
+        "path": "assets/monsters/Medusa.webp",
+        "role": "enemy"
+    },
+    "Chimera": {
+        "name": "Chimera",
+        "path": "assets/monsters/Chimera.webp",
+        "role": "enemy"
+    },
+    "Giant Constrictor Snake": {
+        "name": "Giant Constrictor Snake",
+        "path": "assets/monsters/Giant Constrictor Snake.webp",
+        "role": "enemy"
+    },
+    "Young Gold Dragon": {
+        "name": "Young Gold Dragon",
+        "path": "assets/monsters/Young Gold Dragon.webp",
+        "role": "enemy"
+    },
+    "Lizardfolk": {
+        "name": "Lizardfolk",
+        "path": "assets/monsters/Lizardfolk.webp",
+        "role": "enemy"
+    },
+    "Camel": {
+        "name": "Camel",
+        "path": "assets/monsters/Camel.webp",
+        "role": "enemy"
+    },
+    "Owl": {
+        "name": "Owl",
+        "path": "assets/monsters/Owl.webp",
+        "role": "enemy"
+    },
+    "Tiger": {
+        "name": "Tiger",
+        "path": "assets/monsters/Tiger.webp",
+        "role": "enemy"
+    },
+    "Nothic": {
+        "name": "Nothic",
+        "path": "assets/monsters/Nothic.webp",
+        "role": "enemy"
+    },
+    "Ankheg": {
+        "name": "Ankheg",
+        "path": "assets/monsters/Ankheg.webp",
+        "role": "enemy"
+    },
+    "Young Bronze Dragon": {
+        "name": "Young Bronze Dragon",
+        "path": "assets/monsters/Young Bronze Dragon.webp",
+        "role": "enemy"
+    },
+    "Warhorse Skeleton": {
+        "name": "Warhorse Skeleton",
+        "path": "assets/monsters/Warhorse Skeleton.webp",
+        "role": "enemy"
+    },
+    "Awakened Shrub": {
+        "name": "Awakened Shrub",
+        "path": "assets/monsters/Awakened Shrub.webp",
+        "role": "enemy"
+    },
+    "Blue Slaad": {
+        "name": "Blue Slaad",
+        "path": "assets/monsters/Blue Slaad.webp",
+        "role": "enemy"
+    },
+    "Knight": {
+        "name": "Knight",
+        "path": "assets/monsters/Knight.webp",
+        "role": "enemy"
+    },
+    "Galeb Duhr": {
+        "name": "Galeb Duhr",
+        "path": "assets/monsters/Galeb Duhr.webp",
+        "role": "enemy"
+    },
+    "Rat": {
+        "name": "Rat",
+        "path": "assets/monsters/Rat.webp",
+        "role": "enemy"
+    },
+    "Crocodile": {
+        "name": "Crocodile",
+        "path": "assets/monsters/Crocodile.webp",
+        "role": "enemy"
+    },
+    "Eagle": {
+        "name": "Eagle",
+        "path": "assets/monsters/Eagle.webp",
+        "role": "enemy"
+    },
+    "Wyvern": {
+        "name": "Wyvern",
+        "path": "assets/monsters/Wyvern.webp",
+        "role": "enemy"
+    },
+    "Killer Whale": {
+        "name": "Killer Whale",
+        "path": "assets/monsters/Killer Whale.webp",
+        "role": "enemy"
+    },
+    "Needle Blight": {
+        "name": "Needle Blight",
+        "path": "assets/monsters/Needle Blight.webp",
+        "role": "enemy"
+    },
+    "Gnoll Pack Lord": {
+        "name": "Gnoll Pack Lord",
+        "path": "assets/monsters/Gnoll Pack Lord.webp",
+        "role": "enemy"
+    },
+    "Minotaur": {
+        "name": "Minotaur",
+        "path": "assets/monsters/Minotaur.webp",
+        "role": "enemy"
+    },
+    "Cult Fanatic": {
+        "name": "Cult Fanatic",
+        "path": "assets/monsters/Cult Fanatic.webp",
+        "role": "enemy"
+    },
+    "Giant Lizard": {
+        "name": "Giant Lizard",
+        "path": "assets/monsters/Giant Lizard.webp",
+        "role": "enemy"
+    },
+    "Duodrone": {
+        "name": "Duodrone",
+        "path": "assets/monsters/Duodrone.webp",
+        "role": "enemy"
+    },
+    "Drider": {
+        "name": "Drider",
+        "path": "assets/monsters/Drider.webp",
+        "role": "enemy"
+    },
+    "Green Hag": {
+        "name": "Green Hag",
+        "path": "assets/monsters/Green Hag.webp",
+        "role": "enemy"
+    },
+    "Ettercap": {
+        "name": "Ettercap",
+        "path": "assets/monsters/Ettercap.webp",
+        "role": "enemy"
+    },
+    "Owlbear": {
+        "name": "Owlbear",
+        "path": "assets/monsters/Owlbear.webp",
+        "role": "enemy"
+    },
+    "Sea Hag": {
+        "name": "Sea Hag",
+        "path": "assets/monsters/Sea Hag.webp",
+        "role": "enemy"
+    },
+    "Giant Bat": {
+        "name": "Giant Bat",
+        "path": "assets/monsters/Giant Bat.webp",
+        "role": "enemy"
+    },
+    "Magmin": {
+        "name": "Magmin",
+        "path": "assets/monsters/Magmin.webp",
+        "role": "enemy"
+    },
+    "Swarm of Poisonous Snakes": {
+        "name": "Swarm of Poisonous Snakes",
+        "path": "assets/monsters/Swarm of Poisonous Snakes.webp",
+        "role": "enemy"
+    },
+    "Reef Shark": {
+        "name": "Reef Shark",
+        "path": "assets/monsters/Reef Shark.webp",
+        "role": "enemy"
+    },
+    "Treant": {
+        "name": "Treant",
+        "path": "assets/monsters/Treant.webp",
+        "role": "enemy"
+    },
+    "Scout": {
+        "name": "Scout",
+        "path": "assets/monsters/Scout.webp",
+        "role": "enemy"
+    },
+    "Hyena": {
+        "name": "Hyena",
+        "path": "assets/monsters/Hyena.webp",
+        "role": "enemy"
+    },
+    "Yochol": {
+        "name": "Yochol",
+        "path": "assets/monsters/Yochol.webp",
+        "role": "enemy"
+    },
+    "Swarm of Rats": {
+        "name": "Swarm of Rats",
+        "path": "assets/monsters/Swarm of Rats.webp",
+        "role": "enemy"
+    },
+    "Orc War Chief": {
+        "name": "Orc War Chief",
+        "path": "assets/monsters/Orc War Chief.webp",
+        "role": "enemy"
+    },
+    "Awakened Tree": {
+        "name": "Awakened Tree",
+        "path": "assets/monsters/Awakened Tree.webp",
+        "role": "enemy"
+    },
+    "Commoner": {
+        "name": "Commoner",
+        "path": "assets/monsters/Commoner.webp",
+        "role": "enemy"
+    },
+    "Goat": {
+        "name": "Goat",
+        "path": "assets/monsters/Goat.webp",
+        "role": "enemy"
+    },
+    "Water Weird": {
+        "name": "Water Weird",
+        "path": "assets/monsters/Water Weird.webp",
+        "role": "enemy"
+    },
+    "Orog": {
+        "name": "Orog",
+        "path": "assets/monsters/Orog.webp",
+        "role": "enemy"
+    },
+    "Kobold": {
+        "name": "Kobold",
+        "path": "assets/monsters/Kobold.webp",
+        "role": "enemy"
+    },
+    "Flumph": {
+        "name": "Flumph",
+        "path": "assets/monsters/Flumph.webp",
+        "role": "enemy"
+    },
+    "Plesiosaurus": {
+        "name": "Plesiosaurus",
+        "path": "assets/monsters/Plesiosaurus.webp",
+        "role": "enemy"
+    },
+    "Young Remorhaz": {
+        "name": "Young Remorhaz",
+        "path": "assets/monsters/Young Remorhaz.webp",
+        "role": "enemy"
+    },
+    "Bandit": {
+        "name": "Bandit",
+        "path": "assets/monsters/Bandit.webp",
+        "role": "enemy"
+    },
+    "Elk": {
+        "name": "Elk",
+        "path": "assets/monsters/Elk.webp",
+        "role": "enemy"
+    },
+    "Giant Centipede": {
+        "name": "Giant Centipede",
+        "path": "assets/monsters/Giant Centipede.webp",
+        "role": "enemy"
+    },
+    "Young Blue Dragon": {
+        "name": "Young Blue Dragon",
+        "path": "assets/monsters/Young Blue Dragon.webp",
+        "role": "enemy"
+    },
+    "Manes": {
+        "name": "Manes",
+        "path": "assets/monsters/Manes.webp",
+        "role": "enemy"
+    },
+    "Mule": {
+        "name": "Mule",
+        "path": "assets/monsters/Mule.webp",
+        "role": "enemy"
+    },
+    "Spirit Naga": {
+        "name": "Spirit Naga",
+        "path": "assets/monsters/Spirit Naga.webp",
+        "role": "enemy"
+    },
+    "Young Red Dragon": {
+        "name": "Young Red Dragon",
+        "path": "assets/monsters/Young Red Dragon.webp",
+        "role": "enemy"
+    },
+    "Nycaloth": {
+        "name": "Nycaloth",
+        "path": "assets/monsters/Nycaloth.webp",
+        "role": "enemy"
+    },
+    "Steam Mephit": {
+        "name": "Steam Mephit",
+        "path": "assets/monsters/Steam Mephit.webp",
+        "role": "enemy"
+    },
+    "Giant Crab": {
+        "name": "Giant Crab",
+        "path": "assets/monsters/Giant Crab.webp",
+        "role": "enemy"
+    },
+    "Ghost": {
+        "name": "Ghost",
+        "path": "assets/monsters/Ghost.webp",
+        "role": "enemy"
+    },
+    "Tyrannosaurus Rex": {
+        "name": "Tyrannosaurus Rex",
+        "path": "assets/monsters/Tyrannosaurus Rex.webp",
+        "role": "enemy"
+    },
+    "Raven": {
+        "name": "Raven",
+        "path": "assets/monsters/Raven.webp",
+        "role": "enemy"
+    },
+    "Triceratops": {
+        "name": "Triceratops",
+        "path": "assets/monsters/Triceratops.webp",
+        "role": "enemy"
+    },
+    "Pegasus": {
+        "name": "Pegasus",
+        "path": "assets/monsters/Pegasus.webp",
+        "role": "enemy"
+    },
+    "Grimlock": {
+        "name": "Grimlock",
+        "path": "assets/monsters/Grimlock.webp",
+        "role": "enemy"
+    },
+    "Aboleth": {
+        "name": "Aboleth",
+        "path": "assets/monsters/Aboleth.webp",
+        "role": "enemy"
+    },
+    "Cambion": {
+        "name": "Cambion",
+        "path": "assets/monsters/Cambion.webp",
+        "role": "enemy"
+    },
+    "Hellhound": {
+        "name": "Hellhound",
+        "path": "assets/monsters/Hellhound.webp",
+        "role": "enemy"
+    },
+    "Wolf": {
+        "name": "Wolf",
+        "path": "assets/monsters/Wolf.webp",
+        "role": "enemy"
+    },
+    "Water Elemental": {
+        "name": "Water Elemental",
+        "path": "assets/monsters/Water Elemental.webp",
+        "role": "enemy"
+    },
+    "Swarm of Beetles": {
+        "name": "Swarm of Beetles",
+        "path": "assets/monsters/Swarm of Beetles.webp",
+        "role": "enemy"
+    },
+    "Giant Ape": {
+        "name": "Giant Ape",
+        "path": "assets/monsters/Giant Ape.webp",
+        "role": "enemy"
+    },
+    "Grell": {
+        "name": "Grell",
+        "path": "assets/monsters/Grell.webp",
+        "role": "enemy"
+    },
+    "Doppelganger": {
+        "name": "Doppelganger",
+        "path": "assets/monsters/Doppelganger.webp",
+        "role": "enemy"
+    },
+    "Kuo-toa": {
+        "name": "Kuo-toa",
+        "path": "assets/monsters/Kuo-toa.webp",
+        "role": "enemy"
+    },
+    "Young Green Dragon": {
+        "name": "Young Green Dragon",
+        "path": "assets/monsters/Young Green Dragon.webp",
+        "role": "enemy"
+    },
+    "Mindflayer": {
+        "name": "Mindflayer",
+        "path": "assets/monsters/Mindflayer.webp",
+        "role": "enemy"
+    },
+    "Lizard": {
+        "name": "Lizard",
+        "path": "assets/monsters/Lizard.webp",
+        "role": "enemy"
+    },
+    "Shrieker": {
+        "name": "Shrieker",
+        "path": "assets/monsters/Shrieker.webp",
+        "role": "enemy"
+    },
+    "Will-o'-Wisp": {
+        "name": "Will-o'-Wisp",
+        "path": "assets/monsters/Will-o'-Wisp.webp",
+        "role": "enemy"
+    },
+    "Gnoll": {
+        "name": "Gnoll",
+        "path": "assets/monsters/Gnoll.webp",
+        "role": "enemy"
+    },
+    "Drow": {
+        "name": "Drow",
+        "path": "assets/monsters/Drow.webp",
+        "role": "enemy"
+    },
+    "Sea Horse": {
+        "name": "Sea Horse",
+        "path": "assets/monsters/Sea Horse.webp",
+        "role": "enemy"
+    },
+    "Merrow": {
+        "name": "Merrow",
+        "path": "assets/monsters/Merrow.webp",
+        "role": "enemy"
+    },
+    "Wererat": {
+        "name": "Wererat",
+        "path": "assets/monsters/Wererat.webp",
+        "role": "enemy"
+    },
+    "Young White Dragon": {
+        "name": "Young White Dragon",
+        "path": "assets/monsters/Young White Dragon.webp",
+        "role": "enemy"
+    },
+    "Specter": {
+        "name": "Specter",
+        "path": "assets/monsters/Specter.webp",
+        "role": "enemy"
+    },
+    "Ghoul": {
+        "name": "Ghoul",
+        "path": "assets/monsters/Ghoul.webp",
+        "role": "enemy"
+    },
+    "Blink Dog": {
+        "name": "Blink Dog",
+        "path": "assets/monsters/Blink Dog.webp",
+        "role": "enemy"
+    },
+    "Giant Crocodile": {
+        "name": "Giant Crocodile",
+        "path": "assets/monsters/Giant Crocodile.webp",
+        "role": "enemy"
+    },
+    "Cockatrice": {
+        "name": "Cockatrice",
+        "path": "assets/monsters/Cockatrice.webp",
+        "role": "enemy"
+    },
+    "Ghast": {
+        "name": "Ghast",
+        "path": "assets/monsters/Ghast.webp",
+        "role": "enemy"
+    },
+    "Polar Bear": {
+        "name": "Polar Bear",
+        "path": "assets/monsters/Polar Bear.webp",
+        "role": "enemy"
+    },
+    "Fomorian": {
+        "name": "Fomorian",
+        "path": "assets/monsters/Fomorian.webp",
+        "role": "enemy"
+    },
+    "Piercer": {
+        "name": "Piercer",
+        "path": "assets/monsters/Piercer.webp",
+        "role": "enemy"
+    },
+    "Githyanki Warrior": {
+        "name": "Githyanki Warrior",
+        "path": "assets/monsters/Githyanki Warrior.webp",
+        "role": "enemy"
+    },
+    "Pteranodon": {
+        "name": "Pteranodon",
+        "path": "assets/monsters/Pteranodon.webp",
+        "role": "enemy"
+    },
+    "Mindflayer Arcanist": {
+        "name": "Mindflayer Arcanist",
+        "path": "assets/monsters/Mindflayer Arcanist.webp",
+        "role": "enemy"
+    },
+    "Chain Devil": {
+        "name": "Chain Devil",
+        "path": "assets/monsters/Chain Devil.webp",
+        "role": "enemy"
+    },
+    "Draft Horse": {
+        "name": "Draft Horse",
+        "path": "assets/monsters/Draft Horse.webp",
+        "role": "enemy"
+    },
+    "Bandit Captain": {
+        "name": "Bandit Captain",
+        "path": "assets/monsters/Bandit Captain.webp",
+        "role": "enemy"
+    },
+    "Cave Bear": {
+        "name": "Cave Bear",
+        "path": "assets/monsters/Cave Bear.webp",
+        "role": "enemy"
+    },
+    "Quasit": {
+        "name": "Quasit",
+        "path": "assets/monsters/Quasit.webp",
+        "role": "enemy"
+    },
+    "Mammoth": {
+        "name": "Mammoth",
+        "path": "assets/monsters/Mammoth.webp",
+        "role": "enemy"
+    },
+    "Hill Giant": {
+        "name": "Hill Giant",
+        "path": "assets/monsters/Hill Giant.webp",
+        "role": "enemy"
+    },
+    "Fire Giant": {
+        "name": "Fire Giant",
+        "path": "assets/monsters/Fire Giant.webp",
+        "role": "enemy"
+    },
+    "Dire Wolf": {
+        "name": "Dire Wolf",
+        "path": "assets/monsters/Dire Wolf.webp",
+        "role": "enemy"
+    },
+    "Monodrone": {
+        "name": "Monodrone",
+        "path": "assets/monsters/Monodrone.webp",
+        "role": "enemy"
+    },
+    "Quaggoth Thonot": {
+        "name": "Quaggoth Thonot",
+        "path": "assets/monsters/Quaggoth Thonot.webp",
+        "role": "enemy"
+    },
+    "Intellect Devourer": {
+        "name": "Intellect Devourer",
+        "path": "assets/monsters/Intellect Devourer.webp",
+        "role": "enemy"
+    },
+    "Mimic": {
+        "name": "Mimic",
+        "path": "assets/monsters/Mimic.webp",
+        "role": "enemy"
+    },
+    "Twig Blight": {
+        "name": "Twig Blight",
+        "path": "assets/monsters/Twig Blight.webp",
+        "role": "enemy"
+    },
+    "Azer": {
+        "name": "Azer",
+        "path": "assets/monsters/Azer.webp",
+        "role": "enemy"
+    },
+    "Animated Armor": {
+        "name": "Animated Armor",
+        "path": "assets/monsters/Animated Armor.webp",
+        "role": "enemy"
+    },
+    "Young Copper Dragon": {
+        "name": "Young Copper Dragon",
+        "path": "assets/monsters/Young Copper Dragon.webp",
+        "role": "enemy"
+    },
+    "Druid": {
+        "name": "Druid",
+        "path": "assets/monsters/Druid.webp",
+        "role": "enemy"
+    },
+    "Swarm of Wasps": {
+        "name": "Swarm of Wasps",
+        "path": "assets/monsters/Swarm of Wasps.webp",
+        "role": "enemy"
+    },
+    "Kuo-toa Whip": {
+        "name": "Kuo-toa Whip",
+        "path": "assets/monsters/Kuo-toa Whip.webp",
+        "role": "enemy"
+    },
+    "Beholder Zombie": {
+        "name": "Beholder Zombie",
+        "path": "assets/monsters/Beholder Zombie.webp",
+        "role": "enemy"
+    },
+    "Harpy": {
+        "name": "Harpy",
+        "path": "assets/monsters/Harpy.webp",
+        "role": "enemy"
+    },
+    "Lamia": {
+        "name": "Lamia",
+        "path": "assets/monsters/Lamia.webp",
+        "role": "enemy"
+    },
+    "Couatl": {
+        "name": "Couatl",
+        "path": "assets/monsters/Couatl.webp",
+        "role": "enemy"
+    },
+    "Troll": {
+        "name": "Troll",
+        "path": "assets/monsters/Troll.webp",
+        "role": "enemy"
+    },
+    "Rug of Smothering": {
+        "name": "Rug of Smothering",
+        "path": "assets/monsters/Rug of Smothering.webp",
+        "role": "enemy"
+    },
+    "Copper Dragon Wyrmling": {
+        "name": "Copper Dragon Wyrmling",
+        "path": "assets/monsters/Copper Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Blood Hawk": {
+        "name": "Blood Hawk",
+        "path": "assets/monsters/Blood Hawk.webp",
+        "role": "enemy"
+    },
+    "Dust Mephit": {
+        "name": "Dust Mephit",
+        "path": "assets/monsters/Dust Mephit.webp",
+        "role": "enemy"
+    },
+    "Black Dragon Wyrmling": {
+        "name": "Black Dragon Wyrmling",
+        "path": "assets/monsters/Black Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Vine Blight": {
+        "name": "Vine Blight",
+        "path": "assets/monsters/Vine Blight.webp",
+        "role": "enemy"
+    },
+    "Sprite": {
+        "name": "Sprite",
+        "path": "assets/monsters/Sprite.webp",
+        "role": "enemy"
+    },
+    "Green Slaad": {
+        "name": "Green Slaad",
+        "path": "assets/monsters/Green Slaad.webp",
+        "role": "enemy"
+    },
+    "Kuo-toa Monitor": {
+        "name": "Kuo-toa Monitor",
+        "path": "assets/monsters/Kuo-toa Monitor.webp",
+        "role": "enemy"
+    },
+    "Baboon": {
+        "name": "Baboon",
+        "path": "assets/monsters/Baboon.webp",
+        "role": "enemy"
+    },
+    "Spider": {
+        "name": "Spider",
+        "path": "assets/monsters/Spider.webp",
+        "role": "enemy"
+    },
+    "Ogre Zombie": {
+        "name": "Ogre Zombie",
+        "path": "assets/monsters/Ogre Zombie.webp",
+        "role": "enemy"
+    },
+    "Giant Seahorse": {
+        "name": "Giant Seahorse",
+        "path": "assets/monsters/Giant Seahorse.webp",
+        "role": "enemy"
+    },
+    "Gold Dragon Wyrmling": {
+        "name": "Gold Dragon Wyrmling",
+        "path": "assets/monsters/Gold Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Lemure": {
+        "name": "Lemure",
+        "path": "assets/monsters/Lemure.webp",
+        "role": "enemy"
+    },
+    "Black Pudding": {
+        "name": "Black Pudding",
+        "path": "assets/monsters/Black Pudding.webp",
+        "role": "enemy"
+    },
+    "Cultist": {
+        "name": "Cultist",
+        "path": "assets/monsters/Cultist.webp",
+        "role": "enemy"
+    },
+    "Stone Giant": {
+        "name": "Stone Giant",
+        "path": "assets/monsters/Stone Giant.webp",
+        "role": "enemy"
+    },
+    "Gray Slaad": {
+        "name": "Gray Slaad",
+        "path": "assets/monsters/Gray Slaad.webp",
+        "role": "enemy"
+    },
+    "Quipper": {
+        "name": "Quipper",
+        "path": "assets/monsters/Quipper.webp",
+        "role": "enemy"
+    },
+    "Dretch": {
+        "name": "Dretch",
+        "path": "assets/monsters/Dretch.webp",
+        "role": "enemy"
+    },
+    "Giant Fire Beetle": {
+        "name": "Giant Fire Beetle",
+        "path": "assets/monsters/Giant Fire Beetle.webp",
+        "role": "enemy"
+    },
+    "Lizard Queen": {
+        "name": "Lizard Queen",
+        "path": "assets/monsters/Lizard Queen.webp",
+        "role": "enemy"
+    },
+    "Hunter Shark": {
+        "name": "Hunter Shark",
+        "path": "assets/monsters/Hunter Shark.webp",
+        "role": "enemy"
+    },
+    "Young Brass Dragon": {
+        "name": "Young Brass Dragon",
+        "path": "assets/monsters/Young Brass Dragon.webp",
+        "role": "enemy"
+    },
+    "Giant Octopus": {
+        "name": "Giant Octopus",
+        "path": "assets/monsters/Giant Octopus.webp",
+        "role": "enemy"
+    },
+    "Cyclops": {
+        "name": "Cyclops",
+        "path": "assets/monsters/Cyclops.webp",
+        "role": "enemy"
+    },
+    "Swarm of Spiders": {
+        "name": "Swarm of Spiders",
+        "path": "assets/monsters/Swarm of Spiders.webp",
+        "role": "enemy"
+    },
+    "Bat": {
+        "name": "Bat",
+        "path": "assets/monsters/Bat.webp",
+        "role": "enemy"
+    },
+    "Wraith": {
+        "name": "Wraith",
+        "path": "assets/monsters/Wraith.webp",
+        "role": "enemy"
+    },
+    "Weasel": {
+        "name": "Weasel",
+        "path": "assets/monsters/Weasel.webp",
+        "role": "enemy"
+    },
+    "Hawk": {
+        "name": "Hawk",
+        "path": "assets/monsters/Hawk.webp",
+        "role": "enemy"
+    },
+    "Priest": {
+        "name": "Priest",
+        "path": "assets/monsters/Priest.webp",
+        "role": "enemy"
+    },
+    "Deep Gnome": {
+        "name": "Deep Gnome",
+        "path": "assets/monsters/Deep Gnome.webp",
+        "role": "enemy"
+    },
+    "Myconid Sovereign": {
+        "name": "Myconid Sovereign",
+        "path": "assets/monsters/Myconid Sovereign.webp",
+        "role": "enemy"
+    },
+    "Clay Golem": {
+        "name": "Clay Golem",
+        "path": "assets/monsters/Clay Golem.webp",
+        "role": "enemy"
+    },
+    "Jackalwere": {
+        "name": "Jackalwere",
+        "path": "assets/monsters/Jackalwere.webp",
+        "role": "enemy"
+    },
+    "Giant Shark": {
+        "name": "Giant Shark",
+        "path": "assets/monsters/Giant Shark.webp",
+        "role": "enemy"
+    },
+    "Assassin": {
+        "name": "Assassin",
+        "path": "assets/monsters/Assassin.webp",
+        "role": "enemy"
+    },
+    "Giant Rat": {
+        "name": "Giant Rat",
+        "path": "assets/monsters/Giant Rat.webp",
+        "role": "enemy"
+    },
+    "Panther": {
+        "name": "Panther",
+        "path": "assets/monsters/Panther.webp",
+        "role": "enemy"
+    },
+    "Octopus": {
+        "name": "Octopus",
+        "path": "assets/monsters/Octopus.webp",
+        "role": "enemy"
+    },
+    "Allosaurus": {
+        "name": "Allosaurus",
+        "path": "assets/monsters/Allosaurus.webp",
+        "role": "enemy"
+    },
+    "Stirge": {
+        "name": "Stirge",
+        "path": "assets/monsters/Stirge.webp",
+        "role": "enemy"
+    },
+    "Orc": {
+        "name": "Orc",
+        "path": "assets/monsters/Orc.webp",
+        "role": "enemy"
+    },
+    "Invisible Stalker": {
+        "name": "Invisible Stalker",
+        "path": "assets/monsters/Invisible Stalker.webp",
+        "role": "enemy"
+    },
+    "Giant Wasp": {
+        "name": "Giant Wasp",
+        "path": "assets/monsters/Giant Wasp.webp",
+        "role": "enemy"
+    },
+    "Dryad": {
+        "name": "Dryad",
+        "path": "assets/monsters/Dryad.webp",
+        "role": "enemy"
+    },
+    "Spectator": {
+        "name": "Spectator",
+        "path": "assets/monsters/Spectator.webp",
+        "role": "enemy"
+    },
+    "Frog": {
+        "name": "Frog",
+        "path": "assets/monsters/Frog.webp",
+        "role": "enemy"
+    },
+    "Ankylosaurus": {
+        "name": "Ankylosaurus",
+        "path": "assets/monsters/Ankylosaurus.webp",
+        "role": "enemy"
+    },
+    "Giant Elk": {
+        "name": "Giant Elk",
+        "path": "assets/monsters/Giant Elk.webp",
+        "role": "enemy"
+    },
+    "Homunculus": {
+        "name": "Homunculus",
+        "path": "assets/monsters/Homunculus.webp",
+        "role": "enemy"
+    },
+    "Yuan-ti Malison (Type 3)": {
+        "name": "Yuan-ti Malison (Type 3)",
+        "path": "assets/monsters/Yuan-ti Malison (Type 3).webp",
+        "role": "enemy"
+    },
+    "Guard": {
+        "name": "Guard",
+        "path": "assets/monsters/Guard.webp",
+        "role": "enemy"
+    },
+    "Giant Boar": {
+        "name": "Giant Boar",
+        "path": "assets/monsters/Giant Boar.webp",
+        "role": "enemy"
+    },
+    "Quaggoth": {
+        "name": "Quaggoth",
+        "path": "assets/monsters/Quaggoth.webp",
+        "role": "enemy"
+    },
+    "Bugbear": {
+        "name": "Bugbear",
+        "path": "assets/monsters/Bugbear.webp",
+        "role": "enemy"
+    },
+    "Giant Poisonous Snake": {
+        "name": "Giant Poisonous Snake",
+        "path": "assets/monsters/Giant Poisonous Snake.webp",
+        "role": "enemy"
+    },
+    "Salamander": {
+        "name": "Salamander",
+        "path": "assets/monsters/Salamander.webp",
+        "role": "enemy"
+    },
+    "Kuo-toa Archpriest": {
+        "name": "Kuo-toa Archpriest",
+        "path": "assets/monsters/Kuo-toa Archpriest.webp",
+        "role": "enemy"
+    },
+    "Nightmare": {
+        "name": "Nightmare",
+        "path": "assets/monsters/Nightmare.webp",
+        "role": "enemy"
+    },
+    "Cloaker": {
+        "name": "Cloaker",
+        "path": "assets/monsters/Cloaker.webp",
+        "role": "enemy"
+    },
+    "Hobgoblin": {
+        "name": "Hobgoblin",
+        "path": "assets/monsters/Hobgoblin.webp",
+        "role": "enemy"
+    },
+    "Mummy": {
+        "name": "Mummy",
+        "path": "assets/monsters/Mummy.webp",
+        "role": "enemy"
+    },
+    "Darkmantle": {
+        "name": "Darkmantle",
+        "path": "assets/monsters/Darkmantle.webp",
+        "role": "enemy"
+    },
+    "Unicorn": {
+        "name": "Unicorn",
+        "path": "assets/monsters/Unicorn.webp",
+        "role": "enemy"
+    },
+    "Swarm of Ravens": {
+        "name": "Swarm of Ravens",
+        "path": "assets/monsters/Swarm of Ravens.webp",
+        "role": "enemy"
+    },
+    "Chasme": {
+        "name": "Chasme",
+        "path": "assets/monsters/Chasme.webp",
+        "role": "enemy"
+    },
+    "Giant Goat": {
+        "name": "Giant Goat",
+        "path": "assets/monsters/Giant Goat.webp",
+        "role": "enemy"
+    },
+    "Pentadrone": {
+        "name": "Pentadrone",
+        "path": "assets/monsters/Pentadrone.webp",
+        "role": "enemy"
+    },
+    "Gray Ooze": {
+        "name": "Gray Ooze",
+        "path": "assets/monsters/Gray Ooze.webp",
+        "role": "enemy"
+    },
+    "Vampire Spawn": {
+        "name": "Vampire Spawn",
+        "path": "assets/monsters/Vampire Spawn.webp",
+        "role": "enemy"
+    },
+    "Half-Ogre": {
+        "name": "Half-Ogre",
+        "path": "assets/monsters/Half-Ogre.webp",
+        "role": "enemy"
+    },
+    "Drow Elite Warrior": {
+        "name": "Drow Elite Warrior",
+        "path": "assets/monsters/Drow Elite Warrior.webp",
+        "role": "enemy"
+    },
+    "Gorgon": {
+        "name": "Gorgon",
+        "path": "assets/monsters/Gorgon.webp",
+        "role": "enemy"
+    },
+    "Swarm of Bats": {
+        "name": "Swarm of Bats",
+        "path": "assets/monsters/Swarm of Bats.webp",
+        "role": "enemy"
+    },
+    "Werewolf": {
+        "name": "Werewolf",
+        "path": "assets/monsters/Werewolf.webp",
+        "role": "enemy"
+    },
+    "Abominable Yeti": {
+        "name": "Abominable Yeti",
+        "path": "assets/monsters/Abominable Yeti.webp",
+        "role": "enemy"
+    },
+    "Swarm of Quippers": {
+        "name": "Swarm of Quippers",
+        "path": "assets/monsters/Swarm of Quippers.webp",
+        "role": "enemy"
+    },
+    "Riding Horse": {
+        "name": "Riding Horse",
+        "path": "assets/monsters/Riding Horse.webp",
+        "role": "enemy"
+    },
+    "Githzerai Monk": {
+        "name": "Githzerai Monk",
+        "path": "assets/monsters/Githzerai Monk.webp",
+        "role": "enemy"
+    },
+    "Bullywug": {
+        "name": "Bullywug",
+        "path": "assets/monsters/Bullywug.webp",
+        "role": "enemy"
+    },
+    "Air Elemental": {
+        "name": "Air Elemental",
+        "path": "assets/monsters/Air Elemental.webp",
+        "role": "enemy"
+    },
+    "Thug": {
+        "name": "Thug",
+        "path": "assets/monsters/Thug.webp",
+        "role": "enemy"
+    },
+    "Thri-kreen": {
+        "name": "Thri-kreen",
+        "path": "assets/monsters/Thri-kreen.webp",
+        "role": "enemy"
+    },
+    "Githyanki Knight": {
+        "name": "Githyanki Knight",
+        "path": "assets/monsters/Githyanki Knight.webp",
+        "role": "enemy"
+    },
+    "Jackal": {
+        "name": "Jackal",
+        "path": "assets/monsters/Jackal.webp",
+        "role": "enemy"
+    },
+    "Death Slaad": {
+        "name": "Death Slaad",
+        "path": "assets/monsters/Death Slaad.webp",
+        "role": "enemy"
+    },
+    "Mastiff": {
+        "name": "Mastiff",
+        "path": "assets/monsters/Mastiff.webp",
+        "role": "enemy"
+    },
+    "Berserker": {
+        "name": "Berserker",
+        "path": "assets/monsters/Berserker.webp",
+        "role": "enemy"
+    },
+    "Brass Dragon Wyrmling": {
+        "name": "Brass Dragon Wyrmling",
+        "path": "assets/monsters/Brass Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Giant Owl": {
+        "name": "Giant Owl",
+        "path": "assets/monsters/Giant Owl.webp",
+        "role": "enemy"
+    },
+    "Giant Scorpion": {
+        "name": "Giant Scorpion",
+        "path": "assets/monsters/Giant Scorpion.webp",
+        "role": "enemy"
+    },
+    "Succubus": {
+        "name": "Succubus",
+        "path": "assets/monsters/Succubus.webp",
+        "role": "enemy"
+    },
+    "Giant Wolf Spider": {
+        "name": "Giant Wolf Spider",
+        "path": "assets/monsters/Giant Wolf Spider.webp",
+        "role": "enemy"
+    },
+    "Deer": {
+        "name": "Deer",
+        "path": "assets/monsters/Deer.webp",
+        "role": "enemy"
+    },
+    "Frost Giant": {
+        "name": "Frost Giant",
+        "path": "assets/monsters/Frost Giant.webp",
+        "role": "enemy"
+    },
+    "Lion": {
+        "name": "Lion",
+        "path": "assets/monsters/Lion.webp",
+        "role": "enemy"
+    },
+    "Barbed Devil": {
+        "name": "Barbed Devil",
+        "path": "assets/monsters/Barbed Devil.webp",
+        "role": "enemy"
+    },
+    "Drow Mage": {
+        "name": "Drow Mage",
+        "path": "assets/monsters/Drow Mage.webp",
+        "role": "enemy"
+    },
+    "Hydra": {
+        "name": "Hydra",
+        "path": "assets/monsters/Hydra.webp",
+        "role": "enemy"
+    },
+    "Duergar": {
+        "name": "Duergar",
+        "path": "assets/monsters/Duergar.webp",
+        "role": "enemy"
+    },
+    "Badger": {
+        "name": "Badger",
+        "path": "assets/monsters/Badger.webp",
+        "role": "enemy"
+    },
+    "Young Silver Dragon": {
+        "name": "Young Silver Dragon",
+        "path": "assets/monsters/Young Silver Dragon.webp",
+        "role": "enemy"
+    },
+    "Veteran": {
+        "name": "Veteran",
+        "path": "assets/monsters/Veteran.webp",
+        "role": "enemy"
+    },
+    "Poltergeist": {
+        "name": "Poltergeist",
+        "path": "assets/monsters/Poltergeist.webp",
+        "role": "enemy"
+    },
+    "Silver Dragon Wyrmling": {
+        "name": "Silver Dragon Wyrmling",
+        "path": "assets/monsters/Silver Dragon Wyrmling.webp",
+        "role": "enemy"
+    },
+    "Death Dog": {
+        "name": "Death Dog",
+        "path": "assets/monsters/Death Dog.webp",
+        "role": "enemy"
+    },
+    "Flying Snake": {
+        "name": "Flying Snake",
+        "path": "assets/monsters/Flying Snake.webp",
+        "role": "enemy"
+    },
+    "Bone Naga": {
+        "name": "Bone Naga",
+        "path": "assets/monsters/Bone Naga.webp",
+        "role": "enemy"
+    },
+    "Elephant": {
+        "name": "Elephant",
+        "path": "assets/monsters/Elephant.webp",
+        "role": "enemy"
+    },
+    "Guardian Naga": {
+        "name": "Guardian Naga",
+        "path": "assets/monsters/Guardian Naga.webp",
+        "role": "enemy"
+    },
+    "Yeti": {
+        "name": "Yeti",
+        "path": "assets/monsters/Yeti.webp",
+        "role": "enemy"
+    },
+    "Goblin Boss": {
+        "name": "Goblin Boss",
+        "path": "assets/monsters/Goblin Boss.webp",
+        "role": "enemy"
+    },
+    "Githzerai Zerth": {
+        "name": "Githzerai Zerth",
+        "path": "assets/monsters/Githzerai Zerth.webp",
+        "role": "enemy"
+    },
+    "Cloud Giant": {
+        "name": "Cloud Giant",
+        "path": "assets/monsters/Cloud Giant.webp",
+        "role": "enemy"
+    },
+    "Pseudodragon": {
+        "name": "Pseudodragon",
+        "path": "assets/monsters/Pseudodragon.webp",
+        "role": "enemy"
+    }
+}

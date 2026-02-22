@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Magicka Arena Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.10.1/nipplejs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+    <!-- Lobby Layer -->
+    <div id="lobby-layer">
+        <div class="lobby-card">
+            <h1>Magicka Arena</h1>
+            <div class="lobby-content">
+                <div class="players-column">
+                    <h2>Connected Mages: <span id="player-count">0</span></h2>
+                    <ul id="player-list">
+                        <!-- Player list populated by js -->
+                    </ul>
+                </div>
+                <div class="qr-column">
+                    <p>Scan to join the lobby!</p>
+                    <div id="lobby-qrcode"></div>
+                    <p id="lobby-qr-url"></p>
+                </div>
+            </div>
+            <button id="start-game-btn" class="hidden">START GAME</button>
+            <p id="waiting-msg">Waiting for Host to start...</p>
+        </div>
+    </div>
+
+    <!-- Loading Layer -->
+    <div id="loading-layer" class="hidden">
+        <div class="spinner"></div>
+        <h2>Materializing the Arena...</h2>
+    </div>
+
+    <!-- Game Over Layer -->
+    <div id="game-over-layer" class="hidden">
+        <div class="lobby-card">
+            <h1 style="color: #ef4444">GAME OVER</h1>
+            <p>Your party has fallen.</p>
+            <button id="return-lobby-btn" class="hidden">Return to Lobby</button>
+            <p id="game-over-waiting">Waiting for Host...</p>
+        </div>
+    </div>
+
+    <div id="ui-layer" class="hidden">
+        <div id="top-bar">
+            <div id="host-indicator" class="hidden" title="You are the Host"
+                style="font-size: 24px; margin-right: 15px;">👑</div>
+            <div id="health-bar">
+                <div id="health-fill"></div>
+            </div>
+            <div id="enemy-info"
+                style="margin-left: auto; font-family: 'Inter', sans-serif; font-weight: 700; color: white; background: rgba(0,0,0,0.5); padding: 5px 15px; border-radius: 8px;">
+                Enemies: 0 (CR 0/100)
+            </div>
+            <div id="spell-queue"></div>
+            <button id="share-btn">Share (LAN)</button>
+            <button id="quit-game-btn"
+                style="background: #ef4444; border: none; padding: 5px 10px; border-radius: 4px; color: white; cursor: pointer; margin-left: 10px; font-weight: bold;">Quit
+                Game</button>
+        </div>
+
+        <div id="joystick-zone"></div>
+
+        <div id="spell-menu-zone">
+            <!-- Circular menu will be built here via js -->
+            <button id="cast-btn">CAST</button>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div id="qr-modal" class="hidden">
+        <div class="modal-content">
+            <h2>Scan to Join!</h2>
+            <div id="qrcode"></div>
+            <p id="qr-url"></p>
+            <p class="help-text">Connect to the same WiFi network.</p>
+            <button id="close-qr-btn">Resume Game</button>
+        </div>
+    </div>
+
+    <canvas id="game-canvas" class="hidden"></canvas>
+
+    <script src="multiplayer.js"></script>
+    <script src="engine.js"></script>
+</body>
+
+</html>

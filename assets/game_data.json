@@ -1,0 +1,4850 @@
+{
+    "Oni": {
+        "name": "Oni",
+        "path": "assets/monsters/Oni.webp",
+        "hp": 52,
+        "speed": 1.7,
+        "radius": 12,
+        "cr": 15,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#D5CDB5"
+    },
+    "Gladiator": {
+        "name": "Gladiator",
+        "path": "assets/monsters/Gladiator.webp",
+        "hp": 50,
+        "speed": 1.48,
+        "radius": 18,
+        "cr": 11,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#66E5FB"
+    },
+    "Poisonous Snake": {
+        "name": "Poisonous Snake",
+        "path": "assets/monsters/Poisonous Snake.webp",
+        "hp": 64,
+        "speed": 1.548,
+        "radius": 18,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 1.5,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#8AE47A"
+    },
+    "Fire Elemental": {
+        "name": "Fire Elemental",
+        "path": "assets/monsters/Fire Elemental.webp",
+        "hp": 52,
+        "speed": 1.42,
+        "radius": 18,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#58DFBB"
+    },
+    "Gelatinous Cube": {
+        "name": "Gelatinous Cube",
+        "path": "assets/monsters/Gelatinous Cube.webp",
+        "hp": 43,
+        "speed": 1.54,
+        "radius": 18,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#66C6AA"
+    },
+    "Shadow Demon": {
+        "name": "Shadow Demon",
+        "path": "assets/monsters/Shadow Demon.webp",
+        "hp": 54,
+        "speed": 0.84,
+        "radius": 17,
+        "cr": 4,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#58E9DB"
+    },
+    "Young Black Dragon": {
+        "name": "Young Black Dragon",
+        "path": "assets/monsters/Young Black Dragon.webp",
+        "hp": 183,
+        "speed": 0.9359999999999999,
+        "radius": 28,
+        "cr": 16,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#6B8EC9"
+    },
+    "Cat": {
+        "name": "Cat",
+        "path": "assets/monsters/Cat.webp",
+        "hp": 59,
+        "speed": 1.93,
+        "radius": 17,
+        "cr": 22,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#499FB5"
+    },
+    "Rhinoceros": {
+        "name": "Rhinoceros",
+        "path": "assets/monsters/Rhinoceros.webp",
+        "hp": 54,
+        "speed": 0.41,
+        "radius": 17,
+        "cr": 1,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 300,
+            "chargeSpeedMult": 4,
+            "chargeCooldown": 3000,
+            "chargeDuration": 600
+        },
+        "color": "#ECAA8C"
+    },
+    "Flesh Golem": {
+        "name": "Flesh Golem",
+        "path": "assets/monsters/Flesh Golem.webp",
+        "hp": 215,
+        "speed": 1.182,
+        "radius": 28,
+        "cr": 30,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#65AF7B"
+    },
+    "Hippogriff": {
+        "name": "Hippogriff",
+        "path": "assets/monsters/Hippogriff.webp",
+        "hp": 34,
+        "speed": 1.14,
+        "radius": 15,
+        "cr": 4,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#66D9E7"
+    },
+    "Centaur": {
+        "name": "Centaur",
+        "path": "assets/monsters/Centaur.webp",
+        "hp": 65,
+        "speed": 0.9,
+        "radius": 17,
+        "cr": 5,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#875FEA"
+    },
+    "Helmed Horror": {
+        "name": "Helmed Horror",
+        "path": "assets/monsters/Helmed Horror.webp",
+        "hp": 52,
+        "speed": 1.34,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#BC84E8"
+    },
+    "Peryton": {
+        "name": "Peryton",
+        "path": "assets/monsters/Peryton.webp",
+        "hp": 35,
+        "speed": 1.91,
+        "radius": 13,
+        "cr": 13,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#C46A65"
+    },
+    "Yuan-ti Abomination": {
+        "name": "Yuan-ti Abomination",
+        "path": "assets/monsters/Yuan-ti Abomination.webp",
+        "hp": 68,
+        "speed": 0.82,
+        "radius": 18,
+        "cr": 5,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#9DF9DF"
+    },
+    "Mezzoloth": {
+        "name": "Mezzoloth",
+        "path": "assets/monsters/Mezzoloth.webp",
+        "hp": 48,
+        "speed": 1.49,
+        "radius": 14,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#DB784C"
+    },
+    "Spined Devil": {
+        "name": "Spined Devil",
+        "path": "assets/monsters/Spined Devil.webp",
+        "hp": 31,
+        "speed": 1.61,
+        "radius": 16,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CD5464"
+    },
+    "Rust Monster": {
+        "name": "Rust Monster",
+        "path": "assets/monsters/Rust Monster.webp",
+        "hp": 37,
+        "speed": 1.04,
+        "radius": 15,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#4D49A8"
+    },
+    "Giant Toad": {
+        "name": "Giant Toad",
+        "path": "assets/monsters/Giant Toad.webp",
+        "hp": 181,
+        "speed": 0.726,
+        "radius": 23,
+        "cr": 10,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#7BE5F9"
+    },
+    "Chuul": {
+        "name": "Chuul",
+        "path": "assets/monsters/Chuul.webp",
+        "hp": 40,
+        "speed": 1.78,
+        "radius": 18,
+        "cr": 13,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#D9489F"
+    },
+    "Flying Sword": {
+        "name": "Flying Sword",
+        "path": "assets/monsters/Flying Sword.webp",
+        "hp": 66,
+        "speed": 2.895,
+        "radius": 18,
+        "cr": 55,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3.99,
+            "zigzagFrequency": 0.0121
+        },
+        "color": "#648E95"
+    },
+    "Sahuagin Priestess": {
+        "name": "Sahuagin Priestess",
+        "path": "assets/monsters/Sahuagin Priestess.webp",
+        "hp": 79,
+        "speed": 0.95,
+        "radius": 13,
+        "cr": 7,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 361
+        },
+        "color": "#94BFD5"
+    },
+    "Crawling Claw": {
+        "name": "Crawling Claw",
+        "path": "assets/monsters/Crawling Claw.webp",
+        "hp": 60,
+        "speed": 1.57,
+        "radius": 14,
+        "cr": 15,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F7884D"
+    },
+    "Bronze Dragon Wyrmling": {
+        "name": "Bronze Dragon Wyrmling",
+        "path": "assets/monsters/Bronze Dragon Wyrmling.webp",
+        "hp": 200,
+        "speed": 1.194,
+        "radius": 22,
+        "cr": 29,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#4F6A4D"
+    },
+    "Swarm of Centipedes": {
+        "name": "Swarm of Centipedes",
+        "path": "assets/monsters/Swarm of Centipedes.webp",
+        "hp": 53,
+        "speed": 1.72,
+        "radius": 17,
+        "cr": 16,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4B9FC9"
+    },
+    "Drow Priestess of Lolth": {
+        "name": "Drow Priestess of Lolth",
+        "path": "assets/monsters/Drow Priestess of Lolth.webp",
+        "hp": 34,
+        "speed": 1.27,
+        "radius": 13,
+        "cr": 5,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 396
+        },
+        "color": "#5E5455"
+    },
+    "Constrictor Snake": {
+        "name": "Constrictor Snake",
+        "path": "assets/monsters/Constrictor Snake.webp",
+        "hp": 71,
+        "speed": 1.308,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 1.5,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#BD8BDC"
+    },
+    "Myconid Adult": {
+        "name": "Myconid Adult",
+        "path": "assets/monsters/Myconid Adult.webp",
+        "hp": 33,
+        "speed": 1.13,
+        "radius": 13,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#965F99"
+    },
+    "Warhorse": {
+        "name": "Warhorse",
+        "path": "assets/monsters/Warhorse.webp",
+        "hp": 61,
+        "speed": 1.68,
+        "radius": 12,
+        "cr": 17,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#744CBC"
+    },
+    "Pixie": {
+        "name": "Pixie",
+        "path": "assets/monsters/Pixie.webp",
+        "hp": 46,
+        "speed": 1.16,
+        "radius": 15,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#554C48"
+    },
+    "Night Hag": {
+        "name": "Night Hag",
+        "path": "assets/monsters/Night Hag.webp",
+        "hp": 80,
+        "speed": 1.21,
+        "radius": 16,
+        "cr": 12,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#F96FA8"
+    },
+    "Griffon": {
+        "name": "Griffon",
+        "path": "assets/monsters/Griffon.webp",
+        "hp": 69,
+        "speed": 1.16,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#9FC4C5"
+    },
+    "Carrion Crawler": {
+        "name": "Carrion Crawler",
+        "path": "assets/monsters/Carrion Crawler.webp",
+        "hp": 48,
+        "speed": 1.26,
+        "radius": 16,
+        "cr": 8,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#76B48A"
+    },
+    "Giant Vulture": {
+        "name": "Giant Vulture",
+        "path": "assets/monsters/Giant Vulture.webp",
+        "hp": 206,
+        "speed": 0.564,
+        "radius": 22,
+        "cr": 7,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#BF8867"
+    },
+    "Imp": {
+        "name": "Imp",
+        "path": "assets/monsters/Imp.webp",
+        "hp": 54,
+        "speed": 0.88,
+        "radius": 16,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#C8D5AE"
+    },
+    "Crab": {
+        "name": "Crab",
+        "path": "assets/monsters/Crab.webp",
+        "hp": 78,
+        "speed": 1.34,
+        "radius": 18,
+        "cr": 14,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#967F58"
+    },
+    "Barlgura": {
+        "name": "Barlgura",
+        "path": "assets/monsters/Barlgura.webp",
+        "hp": 47,
+        "speed": 1.74,
+        "radius": 13,
+        "cr": 14,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#C57EAB"
+    },
+    "Pony": {
+        "name": "Pony",
+        "path": "assets/monsters/Pony.webp",
+        "hp": 67,
+        "speed": 1.04,
+        "radius": 16,
+        "cr": 7,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#C994FB"
+    },
+    "Bearded Devil": {
+        "name": "Bearded Devil",
+        "path": "assets/monsters/Bearded Devil.webp",
+        "hp": 68,
+        "speed": 1.08,
+        "radius": 13,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#979758"
+    },
+    "Vulture": {
+        "name": "Vulture",
+        "path": "assets/monsters/Vulture.webp",
+        "hp": 50,
+        "speed": 1.2449999999999999,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3.3,
+            "zigzagFrequency": 0.0132
+        },
+        "color": "#9C9F78"
+    },
+    "Gargoyle": {
+        "name": "Gargoyle",
+        "path": "assets/monsters/Gargoyle.webp",
+        "hp": 68,
+        "speed": 1.47,
+        "radius": 18,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#CB5654"
+    },
+    "Black Bear": {
+        "name": "Black Bear",
+        "path": "assets/monsters/Black Bear.webp",
+        "hp": 32,
+        "speed": 1.02,
+        "radius": 13,
+        "cr": 3,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#9D55AD"
+    },
+    "Glabrezu": {
+        "name": "Glabrezu",
+        "path": "assets/monsters/Glabrezu.webp",
+        "hp": 52,
+        "speed": 1.71,
+        "radius": 15,
+        "cr": 15,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#949BBB"
+    },
+    "Gnoll Fang of Yeenoghu": {
+        "name": "Gnoll Fang of Yeenoghu",
+        "path": "assets/monsters/Gnoll Fang of Yeenoghu.webp",
+        "hp": 59,
+        "speed": 1.66,
+        "radius": 15,
+        "cr": 16,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#88BCED"
+    },
+    "Red Slaad": {
+        "name": "Red Slaad",
+        "path": "assets/monsters/Red Slaad.webp",
+        "hp": 35,
+        "speed": 1.51,
+        "radius": 17,
+        "cr": 8,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 269
+        },
+        "color": "#EBC6FB"
+    },
+    "Giant Badger": {
+        "name": "Giant Badger",
+        "path": "assets/monsters/Giant Badger.webp",
+        "hp": 224,
+        "speed": 0.69,
+        "radius": 23,
+        "cr": 11,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#74BAF7"
+    },
+    "Smoke Mephit": {
+        "name": "Smoke Mephit",
+        "path": "assets/monsters/Smoke Mephit.webp",
+        "hp": 37,
+        "speed": 1.14,
+        "radius": 18,
+        "cr": 5,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#FDFAB5"
+    },
+    "Wereboar": {
+        "name": "Wereboar",
+        "path": "assets/monsters/Wereboar.webp",
+        "hp": 36,
+        "speed": 1.0,
+        "radius": 13,
+        "cr": 4,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#7855AF"
+    },
+    "Ape": {
+        "name": "Ape",
+        "path": "assets/monsters/Ape.webp",
+        "hp": 58,
+        "speed": 1.09,
+        "radius": 12,
+        "cr": 7,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#E7C598"
+    },
+    "Deva": {
+        "name": "Deva",
+        "path": "assets/monsters/Deva.webp",
+        "hp": 51,
+        "speed": 1.85,
+        "radius": 18,
+        "cr": 17,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#FAE7CE"
+    },
+    "Ochre Jelly": {
+        "name": "Ochre Jelly",
+        "path": "assets/monsters/Ochre Jelly.webp",
+        "hp": 41,
+        "speed": 0.87,
+        "radius": 17,
+        "cr": 3,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F6FC76"
+    },
+    "Giant Weasel": {
+        "name": "Giant Weasel",
+        "path": "assets/monsters/Giant Weasel.webp",
+        "hp": 213,
+        "speed": 0.708,
+        "radius": 22,
+        "cr": 11,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#DAF74D"
+    },
+    "Kenku": {
+        "name": "Kenku",
+        "path": "assets/monsters/Kenku.webp",
+        "hp": 32,
+        "speed": 1.86,
+        "radius": 17,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#BDCF79"
+    },
+    "Earth Elemental": {
+        "name": "Earth Elemental",
+        "path": "assets/monsters/Earth Elemental.webp",
+        "hp": 69,
+        "speed": 0.97,
+        "radius": 14,
+        "cr": 6,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#5755F7"
+    },
+    "Magma Mephit": {
+        "name": "Magma Mephit",
+        "path": "assets/monsters/Magma Mephit.webp",
+        "hp": 37,
+        "speed": 1.52,
+        "radius": 15,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#75C8CD"
+    },
+    "Myconid Sprout": {
+        "name": "Myconid Sprout",
+        "path": "assets/monsters/Myconid Sprout.webp",
+        "hp": 33,
+        "speed": 0.86,
+        "radius": 13,
+        "cr": 2,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#9FFD8C"
+    },
+    "Ogre": {
+        "name": "Ogre",
+        "path": "assets/monsters/Ogre.webp",
+        "hp": 79,
+        "speed": 1.14,
+        "radius": 16,
+        "cr": 10,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#7EB85F"
+    },
+    "Vrock": {
+        "name": "Vrock",
+        "path": "assets/monsters/Vrock.webp",
+        "hp": 51,
+        "speed": 1.2,
+        "radius": 18,
+        "cr": 7,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F4F6CF"
+    },
+    "Goblin": {
+        "name": "Goblin",
+        "path": "assets/monsters/Goblin.webp",
+        "hp": 79,
+        "speed": 1.5,
+        "radius": 16,
+        "cr": 18,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#E8CD55"
+    },
+    "Werebear": {
+        "name": "Werebear",
+        "path": "assets/monsters/Werebear.webp",
+        "hp": 52,
+        "speed": 1.24,
+        "radius": 12,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#4FAF65"
+    },
+    "Ice Mephit": {
+        "name": "Ice Mephit",
+        "path": "assets/monsters/Ice Mephit.webp",
+        "hp": 33,
+        "speed": 1.36,
+        "radius": 17,
+        "cr": 6,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#66F64C"
+    },
+    "Hobgoblin Warlord": {
+        "name": "Hobgoblin Warlord",
+        "path": "assets/monsters/Hobgoblin Warlord.webp",
+        "hp": 41,
+        "speed": 0.94,
+        "radius": 15,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#D9B9AD"
+    },
+    "Quadrone": {
+        "name": "Quadrone",
+        "path": "assets/monsters/Quadrone.webp",
+        "hp": 33,
+        "speed": 1.79,
+        "radius": 14,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#EC86F4"
+    },
+    "Winged Kobold": {
+        "name": "Winged Kobold",
+        "path": "assets/monsters/Winged Kobold.webp",
+        "hp": 37,
+        "speed": 1.47,
+        "radius": 12,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#47C8F4"
+    },
+    "Swarm of Insects": {
+        "name": "Swarm of Insects",
+        "path": "assets/monsters/Swarm of Insects.webp",
+        "hp": 72,
+        "speed": 1.86,
+        "radius": 17,
+        "cr": 25,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#CB9F86"
+    },
+    "Ettin": {
+        "name": "Ettin",
+        "path": "assets/monsters/Ettin.webp",
+        "hp": 57,
+        "speed": 1.77,
+        "radius": 16,
+        "cr": 18,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#AC9DD9"
+    },
+    "Basilisk": {
+        "name": "Basilisk",
+        "path": "assets/monsters/Basilisk.webp",
+        "hp": 72,
+        "speed": 1.82,
+        "radius": 12,
+        "cr": 24,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#4FFE7D"
+    },
+    "Violet Fungus": {
+        "name": "Violet Fungus",
+        "path": "assets/monsters/Violet Fungus.webp",
+        "hp": 44,
+        "speed": 1.5,
+        "radius": 17,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#979F5F"
+    },
+    "Tridrone": {
+        "name": "Tridrone",
+        "path": "assets/monsters/Tridrone.webp",
+        "hp": 80,
+        "speed": 1.85,
+        "radius": 14,
+        "cr": 27,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#D5545B"
+    },
+    "Lizardfolk Shaman": {
+        "name": "Lizardfolk Shaman",
+        "path": "assets/monsters/Lizardfolk Shaman.webp",
+        "hp": 40,
+        "speed": 1.72,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#66DB89"
+    },
+    "Yuan-ti Malison (Type 1)": {
+        "name": "Yuan-ti Malison (Type 1)",
+        "path": "assets/monsters/Yuan-ti Malison (Type 1).webp",
+        "hp": 34,
+        "speed": 1.56,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#F94A76"
+    },
+    "Incubus": {
+        "name": "Incubus",
+        "path": "assets/monsters/Incubus.webp",
+        "hp": 74,
+        "speed": 1.99,
+        "radius": 13,
+        "cr": 29,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#8986A9"
+    },
+    "Hobgoblin Captain": {
+        "name": "Hobgoblin Captain",
+        "path": "assets/monsters/Hobgoblin Captain.webp",
+        "hp": 49,
+        "speed": 0.82,
+        "radius": 17,
+        "cr": 3,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#AEDE7D"
+    },
+    "Wight": {
+        "name": "Wight",
+        "path": "assets/monsters/Wight.webp",
+        "hp": 55,
+        "speed": 1.69,
+        "radius": 18,
+        "cr": 16,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#9D9CBD"
+    },
+    "Slaad Tadpole": {
+        "name": "Slaad Tadpole",
+        "path": "assets/monsters/Slaad Tadpole.webp",
+        "hp": 37,
+        "speed": 0.96,
+        "radius": 18,
+        "cr": 3,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 283
+        },
+        "color": "#97BA87"
+    },
+    "Winter Wolf": {
+        "name": "Winter Wolf",
+        "path": "assets/monsters/Winter Wolf.webp",
+        "hp": 60,
+        "speed": 1.21,
+        "radius": 14,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E989F4"
+    },
+    "Noble": {
+        "name": "Noble",
+        "path": "assets/monsters/Noble.webp",
+        "hp": 42,
+        "speed": 1.12,
+        "radius": 14,
+        "cr": 5,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#65876A"
+    },
+    "Orc Eye of Gruumsh": {
+        "name": "Orc Eye of Gruumsh",
+        "path": "assets/monsters/Orc Eye of Gruumsh.webp",
+        "hp": 48,
+        "speed": 0.8,
+        "radius": 13,
+        "cr": 3,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#FD4BC9"
+    },
+    "Sahuagin": {
+        "name": "Sahuagin",
+        "path": "assets/monsters/Sahuagin.webp",
+        "hp": 44,
+        "speed": 0.99,
+        "radius": 13,
+        "cr": 4,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#FDACF6"
+    },
+    "Banshee": {
+        "name": "Banshee",
+        "path": "assets/monsters/Banshee.webp",
+        "hp": 76,
+        "speed": 1.31,
+        "radius": 14,
+        "cr": 13,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#D5948D"
+    },
+    "Hezrou": {
+        "name": "Hezrou",
+        "path": "assets/monsters/Hezrou.webp",
+        "hp": 71,
+        "speed": 1.24,
+        "radius": 13,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#5D55FA"
+    },
+    "Bugbear Chief": {
+        "name": "Bugbear Chief",
+        "path": "assets/monsters/Bugbear Chief.webp",
+        "hp": 46,
+        "speed": 1.55,
+        "radius": 17,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#BADD9B"
+    },
+    "Umber Hulk": {
+        "name": "Umber Hulk",
+        "path": "assets/monsters/Umber Hulk.webp",
+        "hp": 35,
+        "speed": 0.86,
+        "radius": 16,
+        "cr": 3,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#CE4944"
+    },
+    "Merfolk": {
+        "name": "Merfolk",
+        "path": "assets/monsters/Merfolk.webp",
+        "hp": 80,
+        "speed": 1.01,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#DCF5BF"
+    },
+    "Displacer Beast": {
+        "name": "Displacer Beast",
+        "path": "assets/monsters/Displacer Beast.webp",
+        "hp": 76,
+        "speed": 1.23,
+        "radius": 12,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#588DB9"
+    },
+    "Lizard King": {
+        "name": "Lizard King",
+        "path": "assets/monsters/Lizard King.webp",
+        "hp": 38,
+        "speed": 2.0,
+        "radius": 16,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#789EA5"
+    },
+    "Mud Mephit": {
+        "name": "Mud Mephit",
+        "path": "assets/monsters/Mud Mephit.webp",
+        "hp": 46,
+        "speed": 1.44,
+        "radius": 17,
+        "cr": 10,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#6CDDCD"
+    },
+    "Bone Devil": {
+        "name": "Bone Devil",
+        "path": "assets/monsters/Bone Devil.webp",
+        "hp": 80,
+        "speed": 1.3,
+        "radius": 17,
+        "cr": 14,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#A667BB"
+    },
+    "Minotaur Skeleton": {
+        "name": "Minotaur Skeleton",
+        "path": "assets/monsters/Minotaur Skeleton.webp",
+        "hp": 69,
+        "speed": 0.87,
+        "radius": 14,
+        "cr": 5,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 300,
+            "chargeSpeedMult": 4,
+            "chargeCooldown": 3000,
+            "chargeDuration": 600
+        },
+        "color": "#ACDDBD"
+    },
+    "Gibbering Mouther": {
+        "name": "Gibbering Mouther",
+        "path": "assets/monsters/Gibbering Mouther.webp",
+        "hp": 64,
+        "speed": 1.79,
+        "radius": 16,
+        "cr": 21,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#7F985E"
+    },
+    "Saber-Toothed Tiger": {
+        "name": "Saber-Toothed Tiger",
+        "path": "assets/monsters/Saber-Toothed Tiger.webp",
+        "hp": 79,
+        "speed": 1.36,
+        "radius": 12,
+        "cr": 15,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#CA87C8"
+    },
+    "Flameskull": {
+        "name": "Flameskull",
+        "path": "assets/monsters/Flameskull.webp",
+        "hp": 49,
+        "speed": 1.91,
+        "radius": 17,
+        "cr": 18,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CEFA78"
+    },
+    "Worg": {
+        "name": "Worg",
+        "path": "assets/monsters/Worg.webp",
+        "hp": 46,
+        "speed": 0.88,
+        "radius": 14,
+        "cr": 4,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#55F766"
+    },
+    "Giant Hyena": {
+        "name": "Giant Hyena",
+        "path": "assets/monsters/Giant Hyena.webp",
+        "hp": 194,
+        "speed": 0.588,
+        "radius": 23,
+        "cr": 7,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#7DD4F6"
+    },
+    "Troglodyte": {
+        "name": "Troglodyte",
+        "path": "assets/monsters/Troglodyte.webp",
+        "hp": 38,
+        "speed": 1.26,
+        "radius": 13,
+        "cr": 6,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#B57C46"
+    },
+    "Scorpion": {
+        "name": "Scorpion",
+        "path": "assets/monsters/Scorpion.webp",
+        "hp": 64,
+        "speed": 1.88,
+        "radius": 16,
+        "cr": 23,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#8CC5FD"
+    },
+    "Shield Guardian": {
+        "name": "Shield Guardian",
+        "path": "assets/monsters/Shield Guardian.webp",
+        "hp": 57,
+        "speed": 1.99,
+        "radius": 17,
+        "cr": 23,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#7EAFCD"
+    },
+    "Fire Snake": {
+        "name": "Fire Snake",
+        "path": "assets/monsters/Fire Snake.webp",
+        "hp": 79,
+        "speed": 1.704,
+        "radius": 13,
+        "cr": 23,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 1.5,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#4FA58B"
+    },
+    "Boar": {
+        "name": "Boar",
+        "path": "assets/monsters/Boar.webp",
+        "hp": 72,
+        "speed": 0.41,
+        "radius": 18,
+        "cr": 1,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 300,
+            "chargeSpeedMult": 4,
+            "chargeCooldown": 3000,
+            "chargeDuration": 600
+        },
+        "color": "#F95559"
+    },
+    "Phase Spider": {
+        "name": "Phase Spider",
+        "path": "assets/monsters/Phase Spider.webp",
+        "hp": 56,
+        "speed": 1.98,
+        "radius": 14,
+        "cr": 22,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1785,
+            "hopDuration": 300,
+            "hopSpeedMult": 4
+        },
+        "color": "#C7CAC8"
+    },
+    "Zombie": {
+        "name": "Zombie",
+        "path": "assets/monsters/Zombie.webp",
+        "hp": 39,
+        "speed": 1.32,
+        "radius": 12,
+        "cr": 7,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#8D55E7"
+    },
+    "Blue Dragon Wyrmling": {
+        "name": "Blue Dragon Wyrmling",
+        "path": "assets/monsters/Blue Dragon Wyrmling.webp",
+        "hp": 196,
+        "speed": 0.66,
+        "radius": 22,
+        "cr": 9,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#EE87C7"
+    },
+    "Giant Frog": {
+        "name": "Giant Frog",
+        "path": "assets/monsters/Giant Frog.webp",
+        "hp": 194,
+        "speed": 0.972,
+        "radius": 27,
+        "cr": 18,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#8AA474"
+    },
+    "Tribal Warrior": {
+        "name": "Tribal Warrior",
+        "path": "assets/monsters/Tribal Warrior.webp",
+        "hp": 60,
+        "speed": 1.96,
+        "radius": 16,
+        "cr": 23,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#C7A5FF"
+    },
+    "Faerie Dragon": {
+        "name": "Faerie Dragon",
+        "path": "assets/monsters/Faerie Dragon.webp",
+        "hp": 192,
+        "speed": 0.51,
+        "radius": 28,
+        "cr": 5,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#CC4F4B"
+    },
+    "Red Dragon Wyrmling": {
+        "name": "Red Dragon Wyrmling",
+        "path": "assets/monsters/Red Dragon Wyrmling.webp",
+        "hp": 226,
+        "speed": 0.792,
+        "radius": 24,
+        "cr": 14,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9567C9"
+    },
+    "Aarakocra": {
+        "name": "Aarakocra",
+        "path": "assets/monsters/Aarakocra.webp",
+        "hp": 80,
+        "speed": 1.14,
+        "radius": 15,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CC8B55"
+    },
+    "Stone Golem": {
+        "name": "Stone Golem",
+        "path": "assets/monsters/Stone Golem.webp",
+        "hp": 211,
+        "speed": 0.9899999999999999,
+        "radius": 24,
+        "cr": 21,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#F4D599"
+    },
+    "White Dragon Wyrmling": {
+        "name": "White Dragon Wyrmling",
+        "path": "assets/monsters/White Dragon Wyrmling.webp",
+        "hp": 180,
+        "speed": 0.858,
+        "radius": 26,
+        "cr": 13,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#97D966"
+    },
+    "Skeleton": {
+        "name": "Skeleton",
+        "path": "assets/monsters/Skeleton.webp",
+        "hp": 61,
+        "speed": 1.18,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#4987D6"
+    },
+    "Satyr": {
+        "name": "Satyr",
+        "path": "assets/monsters/Satyr.webp",
+        "hp": 37,
+        "speed": 0.88,
+        "radius": 14,
+        "cr": 3,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E5DA9F"
+    },
+    "Revenant": {
+        "name": "Revenant",
+        "path": "assets/monsters/Revenant.webp",
+        "hp": 51,
+        "speed": 1.13,
+        "radius": 14,
+        "cr": 7,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A6FDCB"
+    },
+    "Roper": {
+        "name": "Roper",
+        "path": "assets/monsters/Roper.webp",
+        "hp": 32,
+        "speed": 1.1,
+        "radius": 18,
+        "cr": 4,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#58FEE5"
+    },
+    "Brown Bear": {
+        "name": "Brown Bear",
+        "path": "assets/monsters/Brown Bear.webp",
+        "hp": 50,
+        "speed": 1.47,
+        "radius": 15,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#96BAB5"
+    },
+    "Scarecrow": {
+        "name": "Scarecrow",
+        "path": "assets/monsters/Scarecrow.webp",
+        "hp": 47,
+        "speed": 1.78,
+        "radius": 17,
+        "cr": 15,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4BECEF"
+    },
+    "Sahuagin Baron": {
+        "name": "Sahuagin Baron",
+        "path": "assets/monsters/Sahuagin Baron.webp",
+        "hp": 55,
+        "speed": 1.07,
+        "radius": 17,
+        "cr": 6,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#964457"
+    },
+    "Giant Spider": {
+        "name": "Giant Spider",
+        "path": "assets/monsters/Giant Spider.webp",
+        "hp": 203,
+        "speed": 0.846,
+        "radius": 28,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A6CB6D"
+    },
+    "Shadow": {
+        "name": "Shadow",
+        "path": "assets/monsters/Shadow.webp",
+        "hp": 52,
+        "speed": 1.13,
+        "radius": 15,
+        "cr": 7,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#6D9E9C"
+    },
+    "Gas Spore": {
+        "name": "Gas Spore",
+        "path": "assets/monsters/Gas Spore.webp",
+        "hp": 75,
+        "speed": 1.24,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#584E9C"
+    },
+    "Manticore": {
+        "name": "Manticore",
+        "path": "assets/monsters/Manticore.webp",
+        "hp": 74,
+        "speed": 1.24,
+        "radius": 17,
+        "cr": 11,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#5C457E"
+    },
+    "Weretiger": {
+        "name": "Weretiger",
+        "path": "assets/monsters/Weretiger.webp",
+        "hp": 76,
+        "speed": 1.72,
+        "radius": 16,
+        "cr": 22,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#A49544"
+    },
+    "Hook Horror": {
+        "name": "Hook Horror",
+        "path": "assets/monsters/Hook Horror.webp",
+        "hp": 72,
+        "speed": 1.87,
+        "radius": 18,
+        "cr": 25,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#8CCF58"
+    },
+    "Green Dragon Wyrmling": {
+        "name": "Green Dragon Wyrmling",
+        "path": "assets/monsters/Green Dragon Wyrmling.webp",
+        "hp": 206,
+        "speed": 0.858,
+        "radius": 23,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#FEAF95"
+    },
+    "Axe Beak": {
+        "name": "Axe Beak",
+        "path": "assets/monsters/Axe Beak.webp",
+        "hp": 39,
+        "speed": 1.05,
+        "radius": 18,
+        "cr": 4,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#A478BB"
+    },
+    "Bulette": {
+        "name": "Bulette",
+        "path": "assets/monsters/Bulette.webp",
+        "hp": 75,
+        "speed": 0.93,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E98AB8"
+    },
+    "Shambling Mound": {
+        "name": "Shambling Mound",
+        "path": "assets/monsters/Shambling Mound.webp",
+        "hp": 66,
+        "speed": 1.96,
+        "radius": 14,
+        "cr": 25,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#8595F7"
+    },
+    "Giant Eagle": {
+        "name": "Giant Eagle",
+        "path": "assets/monsters/Giant Eagle.webp",
+        "hp": 219,
+        "speed": 1.188,
+        "radius": 22,
+        "cr": 31,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#68984C"
+    },
+    "Yuan-ti Pureblood": {
+        "name": "Yuan-ti Pureblood",
+        "path": "assets/monsters/Yuan-ti Pureblood.webp",
+        "hp": 35,
+        "speed": 1.98,
+        "radius": 18,
+        "cr": 14,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#A78C4F"
+    },
+    "Medusa": {
+        "name": "Medusa",
+        "path": "assets/monsters/Medusa.webp",
+        "hp": 63,
+        "speed": 1.33,
+        "radius": 15,
+        "cr": 11,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#5CDB84"
+    },
+    "Chimera": {
+        "name": "Chimera",
+        "path": "assets/monsters/Chimera.webp",
+        "hp": 44,
+        "speed": 1.09,
+        "radius": 13,
+        "cr": 5,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#6E6CA6"
+    },
+    "Giant Constrictor Snake": {
+        "name": "Giant Constrictor Snake",
+        "path": "assets/monsters/Giant Constrictor Snake.webp",
+        "hp": 199,
+        "speed": 0.738,
+        "radius": 24,
+        "cr": 11,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#FEEDF9"
+    },
+    "Young Gold Dragon": {
+        "name": "Young Gold Dragon",
+        "path": "assets/monsters/Young Gold Dragon.webp",
+        "hp": 201,
+        "speed": 0.702,
+        "radius": 23,
+        "cr": 10,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A56AC9"
+    },
+    "Lizardfolk": {
+        "name": "Lizardfolk",
+        "path": "assets/monsters/Lizardfolk.webp",
+        "hp": 50,
+        "speed": 1.61,
+        "radius": 13,
+        "cr": 13,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#6F9889"
+    },
+    "Camel": {
+        "name": "Camel",
+        "path": "assets/monsters/Camel.webp",
+        "hp": 48,
+        "speed": 1.56,
+        "radius": 13,
+        "cr": 12,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#68AA47"
+    },
+    "Owl": {
+        "name": "Owl",
+        "path": "assets/monsters/Owl.webp",
+        "hp": 77,
+        "speed": 1.81,
+        "radius": 15,
+        "cr": 25,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#AA555D"
+    },
+    "Tiger": {
+        "name": "Tiger",
+        "path": "assets/monsters/Tiger.webp",
+        "hp": 62,
+        "speed": 1.36,
+        "radius": 15,
+        "cr": 11,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#FB4FF5"
+    },
+    "Nothic": {
+        "name": "Nothic",
+        "path": "assets/monsters/Nothic.webp",
+        "hp": 55,
+        "speed": 1.57,
+        "radius": 16,
+        "cr": 14,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A9AB95"
+    },
+    "Ankheg": {
+        "name": "Ankheg",
+        "path": "assets/monsters/Ankheg.webp",
+        "hp": 65,
+        "speed": 1.21,
+        "radius": 12,
+        "cr": 10,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#58BDE8"
+    },
+    "Young Bronze Dragon": {
+        "name": "Young Bronze Dragon",
+        "path": "assets/monsters/Young Bronze Dragon.webp",
+        "hp": 185,
+        "speed": 1.098,
+        "radius": 26,
+        "cr": 22,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9A85B6"
+    },
+    "Warhorse Skeleton": {
+        "name": "Warhorse Skeleton",
+        "path": "assets/monsters/Warhorse Skeleton.webp",
+        "hp": 67,
+        "speed": 0.8,
+        "radius": 14,
+        "cr": 4,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#6ACFC4"
+    },
+    "Awakened Shrub": {
+        "name": "Awakened Shrub",
+        "path": "assets/monsters/Awakened Shrub.webp",
+        "hp": 72,
+        "speed": 0.81,
+        "radius": 16,
+        "cr": 5,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4C4646"
+    },
+    "Blue Slaad": {
+        "name": "Blue Slaad",
+        "path": "assets/monsters/Blue Slaad.webp",
+        "hp": 64,
+        "speed": 1.82,
+        "radius": 14,
+        "cr": 21,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 292
+        },
+        "color": "#8DFAB9"
+    },
+    "Knight": {
+        "name": "Knight",
+        "path": "assets/monsters/Knight.webp",
+        "hp": 66,
+        "speed": 1.82,
+        "radius": 13,
+        "cr": 22,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#58A457"
+    },
+    "Galeb Duhr": {
+        "name": "Galeb Duhr",
+        "path": "assets/monsters/Galeb Duhr.webp",
+        "hp": 41,
+        "speed": 1.74,
+        "radius": 15,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A887BD"
+    },
+    "Rat": {
+        "name": "Rat",
+        "path": "assets/monsters/Rat.webp",
+        "hp": 37,
+        "speed": 1.83,
+        "radius": 16,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#6CB9B5"
+    },
+    "Crocodile": {
+        "name": "Crocodile",
+        "path": "assets/monsters/Crocodile.webp",
+        "hp": 65,
+        "speed": 0.92,
+        "radius": 14,
+        "cr": 6,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A6945"
+    },
+    "Eagle": {
+        "name": "Eagle",
+        "path": "assets/monsters/Eagle.webp",
+        "hp": 45,
+        "speed": 1.305,
+        "radius": 14,
+        "cr": 8,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 4.38,
+            "zigzagFrequency": 0.0102
+        },
+        "color": "#44F578"
+    },
+    "Wyvern": {
+        "name": "Wyvern",
+        "path": "assets/monsters/Wyvern.webp",
+        "hp": 32,
+        "speed": 1.67,
+        "radius": 16,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A8E64B"
+    },
+    "Killer Whale": {
+        "name": "Killer Whale",
+        "path": "assets/monsters/Killer Whale.webp",
+        "hp": 31,
+        "speed": 1.62,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#C5AE7C"
+    },
+    "Needle Blight": {
+        "name": "Needle Blight",
+        "path": "assets/monsters/Needle Blight.webp",
+        "hp": 56,
+        "speed": 1.67,
+        "radius": 15,
+        "cr": 16,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E49E59"
+    },
+    "Gnoll Pack Lord": {
+        "name": "Gnoll Pack Lord",
+        "path": "assets/monsters/Gnoll Pack Lord.webp",
+        "hp": 61,
+        "speed": 1.56,
+        "radius": 12,
+        "cr": 15,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#74FC7D"
+    },
+    "Minotaur": {
+        "name": "Minotaur",
+        "path": "assets/monsters/Minotaur.webp",
+        "hp": 51,
+        "speed": 0.605,
+        "radius": 13,
+        "cr": 2,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 300,
+            "chargeSpeedMult": 4,
+            "chargeCooldown": 3000,
+            "chargeDuration": 600
+        },
+        "color": "#F64AFA"
+    },
+    "Cult Fanatic": {
+        "name": "Cult Fanatic",
+        "path": "assets/monsters/Cult Fanatic.webp",
+        "hp": 42,
+        "speed": 0.97,
+        "radius": 18,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#D4BDBF"
+    },
+    "Giant Lizard": {
+        "name": "Giant Lizard",
+        "path": "assets/monsters/Giant Lizard.webp",
+        "hp": 214,
+        "speed": 0.834,
+        "radius": 24,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#CE885D"
+    },
+    "Duodrone": {
+        "name": "Duodrone",
+        "path": "assets/monsters/Duodrone.webp",
+        "hp": 42,
+        "speed": 1.26,
+        "radius": 15,
+        "cr": 7,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#DEA48F"
+    },
+    "Drider": {
+        "name": "Drider",
+        "path": "assets/monsters/Drider.webp",
+        "hp": 60,
+        "speed": 1.85,
+        "radius": 12,
+        "cr": 21,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#89ED9E"
+    },
+    "Green Hag": {
+        "name": "Green Hag",
+        "path": "assets/monsters/Green Hag.webp",
+        "hp": 56,
+        "speed": 1.24,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#986C6A"
+    },
+    "Ettercap": {
+        "name": "Ettercap",
+        "path": "assets/monsters/Ettercap.webp",
+        "hp": 68,
+        "speed": 0.91,
+        "radius": 12,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#DF7F88"
+    },
+    "Owlbear": {
+        "name": "Owlbear",
+        "path": "assets/monsters/Owlbear.webp",
+        "hp": 63,
+        "speed": 1.32,
+        "radius": 15,
+        "cr": 11,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#99DA9D"
+    },
+    "Sea Hag": {
+        "name": "Sea Hag",
+        "path": "assets/monsters/Sea Hag.webp",
+        "hp": 52,
+        "speed": 0.86,
+        "radius": 17,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#F5A6B8"
+    },
+    "Giant Bat": {
+        "name": "Giant Bat",
+        "path": "assets/monsters/Giant Bat.webp",
+        "hp": 214,
+        "speed": 0.87,
+        "radius": 26,
+        "cr": 16,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#DCDBAF"
+    },
+    "Magmin": {
+        "name": "Magmin",
+        "path": "assets/monsters/Magmin.webp",
+        "hp": 62,
+        "speed": 1.19,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#B5A7DF"
+    },
+    "Swarm of Poisonous Snakes": {
+        "name": "Swarm of Poisonous Snakes",
+        "path": "assets/monsters/Swarm of Poisonous Snakes.webp",
+        "hp": 32,
+        "speed": 1.512,
+        "radius": 15,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 1.5,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#DB7DC8"
+    },
+    "Reef Shark": {
+        "name": "Reef Shark",
+        "path": "assets/monsters/Reef Shark.webp",
+        "hp": 32,
+        "speed": 1.31,
+        "radius": 13,
+        "cr": 5,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#B48DA7"
+    },
+    "Treant": {
+        "name": "Treant",
+        "path": "assets/monsters/Treant.webp",
+        "hp": 60,
+        "speed": 1.1,
+        "radius": 15,
+        "cr": 7,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#996999"
+    },
+    "Scout": {
+        "name": "Scout",
+        "path": "assets/monsters/Scout.webp",
+        "hp": 43,
+        "speed": 1.32,
+        "radius": 13,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#F8E8B6"
+    },
+    "Hyena": {
+        "name": "Hyena",
+        "path": "assets/monsters/Hyena.webp",
+        "hp": 35,
+        "speed": 1.26,
+        "radius": 12,
+        "cr": 6,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#6B6ACB"
+    },
+    "Yochol": {
+        "name": "Yochol",
+        "path": "assets/monsters/Yochol.webp",
+        "hp": 45,
+        "speed": 1.4,
+        "radius": 16,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#D59EC8"
+    },
+    "Swarm of Rats": {
+        "name": "Swarm of Rats",
+        "path": "assets/monsters/Swarm of Rats.webp",
+        "hp": 69,
+        "speed": 1.03,
+        "radius": 12,
+        "cr": 7,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#BDAE5F"
+    },
+    "Orc War Chief": {
+        "name": "Orc War Chief",
+        "path": "assets/monsters/Orc War Chief.webp",
+        "hp": 53,
+        "speed": 1.76,
+        "radius": 13,
+        "cr": 16,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#4B8B9B"
+    },
+    "Awakened Tree": {
+        "name": "Awakened Tree",
+        "path": "assets/monsters/Awakened Tree.webp",
+        "hp": 70,
+        "speed": 1.4,
+        "radius": 18,
+        "cr": 14,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#9A756C"
+    },
+    "Goat": {
+        "name": "Goat",
+        "path": "assets/monsters/Goat.webp",
+        "hp": 64,
+        "speed": 1.76,
+        "radius": 17,
+        "cr": 20,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#CBB75B"
+    },
+    "Water Weird": {
+        "name": "Water Weird",
+        "path": "assets/monsters/Water Weird.webp",
+        "hp": 34,
+        "speed": 1.91,
+        "radius": 13,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#6B5546"
+    },
+    "Orog": {
+        "name": "Orog",
+        "path": "assets/monsters/Orog.webp",
+        "hp": 58,
+        "speed": 1.93,
+        "radius": 16,
+        "cr": 22,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#F4B99D"
+    },
+    "Kobold": {
+        "name": "Kobold",
+        "path": "assets/monsters/Kobold.webp",
+        "hp": 40,
+        "speed": 0.9,
+        "radius": 12,
+        "cr": 3,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#AAEAC7"
+    },
+    "Flumph": {
+        "name": "Flumph",
+        "path": "assets/monsters/Flumph.webp",
+        "hp": 34,
+        "speed": 1.39,
+        "radius": 13,
+        "cr": 7,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#9755D4"
+    },
+    "Plesiosaurus": {
+        "name": "Plesiosaurus",
+        "path": "assets/monsters/Plesiosaurus.webp",
+        "hp": 49,
+        "speed": 0.85,
+        "radius": 14,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#EEAB7F"
+    },
+    "Young Remorhaz": {
+        "name": "Young Remorhaz",
+        "path": "assets/monsters/Young Remorhaz.webp",
+        "hp": 46,
+        "speed": 1.26,
+        "radius": 12,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A5AA78"
+    },
+    "Bandit": {
+        "name": "Bandit",
+        "path": "assets/monsters/Bandit.webp",
+        "hp": 54,
+        "speed": 1.24,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#BCF7EB"
+    },
+    "Elk": {
+        "name": "Elk",
+        "path": "assets/monsters/Elk.webp",
+        "hp": 80,
+        "speed": 1.11,
+        "radius": 12,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#FAEC8D"
+    },
+    "Giant Centipede": {
+        "name": "Giant Centipede",
+        "path": "assets/monsters/Giant Centipede.webp",
+        "hp": 198,
+        "speed": 0.78,
+        "radius": 24,
+        "cr": 12,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#F79F65"
+    },
+    "Young Blue Dragon": {
+        "name": "Young Blue Dragon",
+        "path": "assets/monsters/Young Blue Dragon.webp",
+        "hp": 180,
+        "speed": 0.9239999999999999,
+        "radius": 25,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9B95EE"
+    },
+    "Manes": {
+        "name": "Manes",
+        "path": "assets/monsters/Manes.webp",
+        "hp": 67,
+        "speed": 1.95,
+        "radius": 16,
+        "cr": 25,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#69B845"
+    },
+    "Mule": {
+        "name": "Mule",
+        "path": "assets/monsters/Mule.webp",
+        "hp": 67,
+        "speed": 1.44,
+        "radius": 17,
+        "cr": 14,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#944F5A"
+    },
+    "Spirit Naga": {
+        "name": "Spirit Naga",
+        "path": "assets/monsters/Spirit Naga.webp",
+        "hp": 58,
+        "speed": 1.88,
+        "radius": 17,
+        "cr": 20,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#AF6B56"
+    },
+    "Young Red Dragon": {
+        "name": "Young Red Dragon",
+        "path": "assets/monsters/Young Red Dragon.webp",
+        "hp": 200,
+        "speed": 0.888,
+        "radius": 27,
+        "cr": 16,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#96B8EC"
+    },
+    "Nycaloth": {
+        "name": "Nycaloth",
+        "path": "assets/monsters/Nycaloth.webp",
+        "hp": 74,
+        "speed": 1.21,
+        "radius": 17,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#A8584E"
+    },
+    "Steam Mephit": {
+        "name": "Steam Mephit",
+        "path": "assets/monsters/Steam Mephit.webp",
+        "hp": 44,
+        "speed": 1.85,
+        "radius": 13,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#76EB79"
+    },
+    "Giant Crab": {
+        "name": "Giant Crab",
+        "path": "assets/monsters/Giant Crab.webp",
+        "hp": 213,
+        "speed": 0.948,
+        "radius": 23,
+        "cr": 19,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#4CF9DA"
+    },
+    "Ghost": {
+        "name": "Ghost",
+        "path": "assets/monsters/Ghost.webp",
+        "hp": 30,
+        "speed": 1.98,
+        "radius": 15,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#AD55A5"
+    },
+    "Tyrannosaurus Rex": {
+        "name": "Tyrannosaurus Rex",
+        "path": "assets/monsters/Tyrannosaurus Rex.webp",
+        "hp": 48,
+        "speed": 1.06,
+        "radius": 18,
+        "cr": 5,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#EBB95F"
+    },
+    "Raven": {
+        "name": "Raven",
+        "path": "assets/monsters/Raven.webp",
+        "hp": 60,
+        "speed": 1.86,
+        "radius": 13,
+        "cr": 21,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#565BDD"
+    },
+    "Triceratops": {
+        "name": "Triceratops",
+        "path": "assets/monsters/Triceratops.webp",
+        "hp": 40,
+        "speed": 0.475,
+        "radius": 14,
+        "cr": 1,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 300,
+            "chargeSpeedMult": 4,
+            "chargeCooldown": 3000,
+            "chargeDuration": 600
+        },
+        "color": "#C499AD"
+    },
+    "Pegasus": {
+        "name": "Pegasus",
+        "path": "assets/monsters/Pegasus.webp",
+        "hp": 56,
+        "speed": 1.43,
+        "radius": 18,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#5B4F6B"
+    },
+    "Grimlock": {
+        "name": "Grimlock",
+        "path": "assets/monsters/Grimlock.webp",
+        "hp": 76,
+        "speed": 1.83,
+        "radius": 15,
+        "cr": 25,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#AA58C6"
+    },
+    "Aboleth": {
+        "name": "Aboleth",
+        "path": "assets/monsters/Aboleth.webp",
+        "hp": 30,
+        "speed": 1.04,
+        "radius": 12,
+        "cr": 3,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#8BBD9C"
+    },
+    "Cambion": {
+        "name": "Cambion",
+        "path": "assets/monsters/Cambion.webp",
+        "hp": 79,
+        "speed": 0.89,
+        "radius": 15,
+        "cr": 6,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#B987D9"
+    },
+    "Hellhound": {
+        "name": "Hellhound",
+        "path": "assets/monsters/Hellhound.webp",
+        "hp": 37,
+        "speed": 1.3,
+        "radius": 12,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#95C689"
+    },
+    "Wolf": {
+        "name": "Wolf",
+        "path": "assets/monsters/Wolf.webp",
+        "hp": 79,
+        "speed": 1.09,
+        "radius": 12,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#D7EA4F"
+    },
+    "Water Elemental": {
+        "name": "Water Elemental",
+        "path": "assets/monsters/Water Elemental.webp",
+        "hp": 76,
+        "speed": 0.96,
+        "radius": 18,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#DEE59D"
+    },
+    "Swarm of Beetles": {
+        "name": "Swarm of Beetles",
+        "path": "assets/monsters/Swarm of Beetles.webp",
+        "hp": 51,
+        "speed": 0.92,
+        "radius": 12,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F4855D"
+    },
+    "Giant Ape": {
+        "name": "Giant Ape",
+        "path": "assets/monsters/Giant Ape.webp",
+        "hp": 214,
+        "speed": 1.164,
+        "radius": 22,
+        "cr": 29,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9E4D47"
+    },
+    "Grell": {
+        "name": "Grell",
+        "path": "assets/monsters/Grell.webp",
+        "hp": 35,
+        "speed": 1.5,
+        "radius": 12,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#98DD4D"
+    },
+    "Doppelganger": {
+        "name": "Doppelganger",
+        "path": "assets/monsters/Doppelganger.webp",
+        "hp": 75,
+        "speed": 1.73,
+        "radius": 15,
+        "cr": 22,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CA7EBD"
+    },
+    "Kuo-toa": {
+        "name": "Kuo-toa",
+        "path": "assets/monsters/Kuo-toa.webp",
+        "hp": 46,
+        "speed": 1.9,
+        "radius": 12,
+        "cr": 17,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A6DC8C"
+    },
+    "Young Green Dragon": {
+        "name": "Young Green Dragon",
+        "path": "assets/monsters/Young Green Dragon.webp",
+        "hp": 218,
+        "speed": 1.08,
+        "radius": 28,
+        "cr": 25,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#694B7A"
+    },
+    "Mindflayer": {
+        "name": "Mindflayer",
+        "path": "assets/monsters/Mindflayer.webp",
+        "hp": 39,
+        "speed": 1.75,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#C8B474"
+    },
+    "Lizard": {
+        "name": "Lizard",
+        "path": "assets/monsters/Lizard.webp",
+        "hp": 46,
+        "speed": 1.04,
+        "radius": 12,
+        "cr": 5,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#FEB554"
+    },
+    "Shrieker": {
+        "name": "Shrieker",
+        "path": "assets/monsters/Shrieker.webp",
+        "hp": 78,
+        "speed": 1.73,
+        "radius": 13,
+        "cr": 23,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#8C96DC"
+    },
+    "Will-o'-Wisp": {
+        "name": "Will-o'-Wisp",
+        "path": "assets/monsters/Will-o'-Wisp.webp",
+        "hp": 69,
+        "speed": 1.31,
+        "radius": 16,
+        "cr": 12,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#949F5A"
+    },
+    "Gnoll": {
+        "name": "Gnoll",
+        "path": "assets/monsters/Gnoll.webp",
+        "hp": 63,
+        "speed": 1.77,
+        "radius": 14,
+        "cr": 20,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#5CD4DC"
+    },
+    "Drow": {
+        "name": "Drow",
+        "path": "assets/monsters/Drow.webp",
+        "hp": 37,
+        "speed": 1.53,
+        "radius": 18,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#7AD566"
+    },
+    "Sea Horse": {
+        "name": "Sea Horse",
+        "path": "assets/monsters/Sea Horse.webp",
+        "hp": 55,
+        "speed": 0.89,
+        "radius": 13,
+        "cr": 4,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#5768B9"
+    },
+    "Merrow": {
+        "name": "Merrow",
+        "path": "assets/monsters/Merrow.webp",
+        "hp": 30,
+        "speed": 1.44,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#B4EC9C"
+    },
+    "Wererat": {
+        "name": "Wererat",
+        "path": "assets/monsters/Wererat.webp",
+        "hp": 50,
+        "speed": 1.34,
+        "radius": 16,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#B6A6EA"
+    },
+    "Young White Dragon": {
+        "name": "Young White Dragon",
+        "path": "assets/monsters/Young White Dragon.webp",
+        "hp": 212,
+        "speed": 1.134,
+        "radius": 26,
+        "cr": 27,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#FF894D"
+    },
+    "Specter": {
+        "name": "Specter",
+        "path": "assets/monsters/Specter.webp",
+        "hp": 35,
+        "speed": 1.47,
+        "radius": 14,
+        "cr": 8,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#6CDEAE"
+    },
+    "Ghoul": {
+        "name": "Ghoul",
+        "path": "assets/monsters/Ghoul.webp",
+        "hp": 34,
+        "speed": 1.77,
+        "radius": 14,
+        "cr": 11,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#4CDAAA"
+    },
+    "Blink Dog": {
+        "name": "Blink Dog",
+        "path": "assets/monsters/Blink Dog.webp",
+        "hp": 45,
+        "speed": 1.46,
+        "radius": 13,
+        "cr": 10,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#9FB8CF"
+    },
+    "Giant Crocodile": {
+        "name": "Giant Crocodile",
+        "path": "assets/monsters/Giant Crocodile.webp",
+        "hp": 229,
+        "speed": 0.654,
+        "radius": 25,
+        "cr": 10,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#47FCB9"
+    },
+    "Cockatrice": {
+        "name": "Cockatrice",
+        "path": "assets/monsters/Cockatrice.webp",
+        "hp": 72,
+        "speed": 1.77,
+        "radius": 13,
+        "cr": 23,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#789CCC"
+    },
+    "Ghast": {
+        "name": "Ghast",
+        "path": "assets/monsters/Ghast.webp",
+        "hp": 56,
+        "speed": 1.67,
+        "radius": 16,
+        "cr": 16,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#BF9C9C"
+    },
+    "Polar Bear": {
+        "name": "Polar Bear",
+        "path": "assets/monsters/Polar Bear.webp",
+        "hp": 48,
+        "speed": 1.45,
+        "radius": 13,
+        "cr": 10,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#F668F4"
+    },
+    "Fomorian": {
+        "name": "Fomorian",
+        "path": "assets/monsters/Fomorian.webp",
+        "hp": 77,
+        "speed": 1.8,
+        "radius": 14,
+        "cr": 25,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#FEABCB"
+    },
+    "Piercer": {
+        "name": "Piercer",
+        "path": "assets/monsters/Piercer.webp",
+        "hp": 48,
+        "speed": 1.07,
+        "radius": 16,
+        "cr": 5,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#B9AAF4"
+    },
+    "Githyanki Warrior": {
+        "name": "Githyanki Warrior",
+        "path": "assets/monsters/Githyanki Warrior.webp",
+        "hp": 30,
+        "speed": 2.0,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#7F58CE"
+    },
+    "Pteranodon": {
+        "name": "Pteranodon",
+        "path": "assets/monsters/Pteranodon.webp",
+        "hp": 35,
+        "speed": 1.75,
+        "radius": 13,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F566FE"
+    },
+    "Mindflayer Arcanist": {
+        "name": "Mindflayer Arcanist",
+        "path": "assets/monsters/Mindflayer Arcanist.webp",
+        "hp": 73,
+        "speed": 1.98,
+        "radius": 16,
+        "cr": 29,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#9A6596"
+    },
+    "Chain Devil": {
+        "name": "Chain Devil",
+        "path": "assets/monsters/Chain Devil.webp",
+        "hp": 44,
+        "speed": 1.79,
+        "radius": 14,
+        "cr": 14,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#7CFE6A"
+    },
+    "Draft Horse": {
+        "name": "Draft Horse",
+        "path": "assets/monsters/Draft Horse.webp",
+        "hp": 36,
+        "speed": 0.92,
+        "radius": 17,
+        "cr": 3,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#F5F55A"
+    },
+    "Bandit Captain": {
+        "name": "Bandit Captain",
+        "path": "assets/monsters/Bandit Captain.webp",
+        "hp": 44,
+        "speed": 1.65,
+        "radius": 12,
+        "cr": 12,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#788C5A"
+    },
+    "Cave Bear": {
+        "name": "Cave Bear",
+        "path": "assets/monsters/Cave Bear.webp",
+        "hp": 59,
+        "speed": 1.29,
+        "radius": 18,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#886B65"
+    },
+    "Quasit": {
+        "name": "Quasit",
+        "path": "assets/monsters/Quasit.webp",
+        "hp": 46,
+        "speed": 1.58,
+        "radius": 18,
+        "cr": 11,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#68949D"
+    },
+    "Mammoth": {
+        "name": "Mammoth",
+        "path": "assets/monsters/Mammoth.webp",
+        "hp": 69,
+        "speed": 1.1,
+        "radius": 12,
+        "cr": 8,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#4EC7F4"
+    },
+    "Hill Giant": {
+        "name": "Hill Giant",
+        "path": "assets/monsters/Hill Giant.webp",
+        "hp": 187,
+        "speed": 1.002,
+        "radius": 23,
+        "cr": 19,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#C84B4C"
+    },
+    "Fire Giant": {
+        "name": "Fire Giant",
+        "path": "assets/monsters/Fire Giant.webp",
+        "hp": 209,
+        "speed": 0.738,
+        "radius": 25,
+        "cr": 11,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#ABA78C"
+    },
+    "Dire Wolf": {
+        "name": "Dire Wolf",
+        "path": "assets/monsters/Dire Wolf.webp",
+        "hp": 61,
+        "speed": 1.09,
+        "radius": 13,
+        "cr": 7,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#498656"
+    },
+    "Monodrone": {
+        "name": "Monodrone",
+        "path": "assets/monsters/Monodrone.webp",
+        "hp": 59,
+        "speed": 1.22,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#5B8B5A"
+    },
+    "Quaggoth Thonot": {
+        "name": "Quaggoth Thonot",
+        "path": "assets/monsters/Quaggoth Thonot.webp",
+        "hp": 37,
+        "speed": 1.15,
+        "radius": 13,
+        "cr": 5,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E65E78"
+    },
+    "Intellect Devourer": {
+        "name": "Intellect Devourer",
+        "path": "assets/monsters/Intellect Devourer.webp",
+        "hp": 35,
+        "speed": 1.28,
+        "radius": 13,
+        "cr": 6,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#8594DD"
+    },
+    "Mimic": {
+        "name": "Mimic",
+        "path": "assets/monsters/Mimic.webp",
+        "hp": 62,
+        "speed": 1.98,
+        "radius": 16,
+        "cr": 24,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E458BD"
+    },
+    "Twig Blight": {
+        "name": "Twig Blight",
+        "path": "assets/monsters/Twig Blight.webp",
+        "hp": 76,
+        "speed": 1.91,
+        "radius": 18,
+        "cr": 28,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#DCC4C4"
+    },
+    "Azer": {
+        "name": "Azer",
+        "path": "assets/monsters/Azer.webp",
+        "hp": 48,
+        "speed": 1.54,
+        "radius": 14,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#7E76AA"
+    },
+    "Animated Armor": {
+        "name": "Animated Armor",
+        "path": "assets/monsters/Animated Armor.webp",
+        "hp": 64,
+        "speed": 1.51,
+        "radius": 14,
+        "cr": 15,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#65E4EC"
+    },
+    "Young Copper Dragon": {
+        "name": "Young Copper Dragon",
+        "path": "assets/monsters/Young Copper Dragon.webp",
+        "hp": 210,
+        "speed": 0.9299999999999999,
+        "radius": 23,
+        "cr": 18,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#8D6B68"
+    },
+    "Druid": {
+        "name": "Druid",
+        "path": "assets/monsters/Druid.webp",
+        "hp": 38,
+        "speed": 1.87,
+        "radius": 12,
+        "cr": 13,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#F69E76"
+    },
+    "Swarm of Wasps": {
+        "name": "Swarm of Wasps",
+        "path": "assets/monsters/Swarm of Wasps.webp",
+        "hp": 31,
+        "speed": 1.02,
+        "radius": 18,
+        "cr": 3,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#9B94FB"
+    },
+    "Kuo-toa Whip": {
+        "name": "Kuo-toa Whip",
+        "path": "assets/monsters/Kuo-toa Whip.webp",
+        "hp": 39,
+        "speed": 1.4,
+        "radius": 13,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#4AA9C7"
+    },
+    "Beholder Zombie": {
+        "name": "Beholder Zombie",
+        "path": "assets/monsters/Beholder Zombie.webp",
+        "hp": 44,
+        "speed": 1.96,
+        "radius": 12,
+        "cr": 17,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#8FC78B"
+    },
+    "Harpy": {
+        "name": "Harpy",
+        "path": "assets/monsters/Harpy.webp",
+        "hp": 79,
+        "speed": 1.14,
+        "radius": 17,
+        "cr": 10,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#DA774C"
+    },
+    "Lamia": {
+        "name": "Lamia",
+        "path": "assets/monsters/Lamia.webp",
+        "hp": 55,
+        "speed": 0.81,
+        "radius": 15,
+        "cr": 4,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#A44BCD"
+    },
+    "Couatl": {
+        "name": "Couatl",
+        "path": "assets/monsters/Couatl.webp",
+        "hp": 49,
+        "speed": 0.9,
+        "radius": 18,
+        "cr": 4,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A7C589"
+    },
+    "Troll": {
+        "name": "Troll",
+        "path": "assets/monsters/Troll.webp",
+        "hp": 56,
+        "speed": 1.92,
+        "radius": 14,
+        "cr": 21,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#964797"
+    },
+    "Rug of Smothering": {
+        "name": "Rug of Smothering",
+        "path": "assets/monsters/Rug of Smothering.webp",
+        "hp": 65,
+        "speed": 0.94,
+        "radius": 17,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#8C55B8"
+    },
+    "Copper Dragon Wyrmling": {
+        "name": "Copper Dragon Wyrmling",
+        "path": "assets/monsters/Copper Dragon Wyrmling.webp",
+        "hp": 189,
+        "speed": 0.9119999999999999,
+        "radius": 23,
+        "cr": 16,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#D85CCE"
+    },
+    "Blood Hawk": {
+        "name": "Blood Hawk",
+        "path": "assets/monsters/Blood Hawk.webp",
+        "hp": 78,
+        "speed": 1.55,
+        "radius": 15,
+        "cr": 19,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#C6D669"
+    },
+    "Dust Mephit": {
+        "name": "Dust Mephit",
+        "path": "assets/monsters/Dust Mephit.webp",
+        "hp": 47,
+        "speed": 1.29,
+        "radius": 12,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A47D4"
+    },
+    "Black Dragon Wyrmling": {
+        "name": "Black Dragon Wyrmling",
+        "path": "assets/monsters/Black Dragon Wyrmling.webp",
+        "hp": 208,
+        "speed": 0.948,
+        "radius": 23,
+        "cr": 19,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#55C774"
+    },
+    "Vine Blight": {
+        "name": "Vine Blight",
+        "path": "assets/monsters/Vine Blight.webp",
+        "hp": 43,
+        "speed": 1.15,
+        "radius": 17,
+        "cr": 6,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#C6758C"
+    },
+    "Sprite": {
+        "name": "Sprite",
+        "path": "assets/monsters/Sprite.webp",
+        "hp": 35,
+        "speed": 1.62,
+        "radius": 18,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#77665C"
+    },
+    "Green Slaad": {
+        "name": "Green Slaad",
+        "path": "assets/monsters/Green Slaad.webp",
+        "hp": 59,
+        "speed": 1.43,
+        "radius": 18,
+        "cr": 12,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 260
+        },
+        "color": "#B7858A"
+    },
+    "Kuo-toa Monitor": {
+        "name": "Kuo-toa Monitor",
+        "path": "assets/monsters/Kuo-toa Monitor.webp",
+        "hp": 39,
+        "speed": 1.5,
+        "radius": 12,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#9C87D7"
+    },
+    "Baboon": {
+        "name": "Baboon",
+        "path": "assets/monsters/Baboon.webp",
+        "hp": 58,
+        "speed": 1.42,
+        "radius": 14,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#D8E9C8"
+    },
+    "Spider": {
+        "name": "Spider",
+        "path": "assets/monsters/Spider.webp",
+        "hp": 35,
+        "speed": 1.4,
+        "radius": 16,
+        "cr": 7,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1749,
+            "hopDuration": 300,
+            "hopSpeedMult": 4
+        },
+        "color": "#75B768"
+    },
+    "Ogre Zombie": {
+        "name": "Ogre Zombie",
+        "path": "assets/monsters/Ogre Zombie.webp",
+        "hp": 75,
+        "speed": 1.52,
+        "radius": 13,
+        "cr": 17,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#C8AAB6"
+    },
+    "Giant Seahorse": {
+        "name": "Giant Seahorse",
+        "path": "assets/monsters/Giant Seahorse.webp",
+        "hp": 226,
+        "speed": 1.068,
+        "radius": 27,
+        "cr": 26,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#C48556"
+    },
+    "Gold Dragon Wyrmling": {
+        "name": "Gold Dragon Wyrmling",
+        "path": "assets/monsters/Gold Dragon Wyrmling.webp",
+        "hp": 192,
+        "speed": 0.648,
+        "radius": 22,
+        "cr": 8,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#7D88F8"
+    },
+    "Lemure": {
+        "name": "Lemure",
+        "path": "assets/monsters/Lemure.webp",
+        "hp": 42,
+        "speed": 1.66,
+        "radius": 15,
+        "cr": 12,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#AAD4FA"
+    },
+    "Black Pudding": {
+        "name": "Black Pudding",
+        "path": "assets/monsters/Black Pudding.webp",
+        "hp": 64,
+        "speed": 1.43,
+        "radius": 14,
+        "cr": 13,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#C797E9"
+    },
+    "Cultist": {
+        "name": "Cultist",
+        "path": "assets/monsters/Cultist.webp",
+        "hp": 52,
+        "speed": 1.25,
+        "radius": 18,
+        "cr": 8,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#5B49FB"
+    },
+    "Stone Giant": {
+        "name": "Stone Giant",
+        "path": "assets/monsters/Stone Giant.webp",
+        "hp": 181,
+        "speed": 1.026,
+        "radius": 23,
+        "cr": 19,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A6947B"
+    },
+    "Gray Slaad": {
+        "name": "Gray Slaad",
+        "path": "assets/monsters/Gray Slaad.webp",
+        "hp": 70,
+        "speed": 1.73,
+        "radius": 16,
+        "cr": 21,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 349
+        },
+        "color": "#6D84A8"
+    },
+    "Quipper": {
+        "name": "Quipper",
+        "path": "assets/monsters/Quipper.webp",
+        "hp": 41,
+        "speed": 1.4,
+        "radius": 16,
+        "cr": 8,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#8D7C8A"
+    },
+    "Dretch": {
+        "name": "Dretch",
+        "path": "assets/monsters/Dretch.webp",
+        "hp": 56,
+        "speed": 0.85,
+        "radius": 18,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E64CCC"
+    },
+    "Giant Fire Beetle": {
+        "name": "Giant Fire Beetle",
+        "path": "assets/monsters/Giant Fire Beetle.webp",
+        "hp": 189,
+        "speed": 0.942,
+        "radius": 28,
+        "cr": 17,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#67F85B"
+    },
+    "Lizard Queen": {
+        "name": "Lizard Queen",
+        "path": "assets/monsters/Lizard Queen.webp",
+        "hp": 40,
+        "speed": 1.37,
+        "radius": 15,
+        "cr": 8,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#9FABCE"
+    },
+    "Hunter Shark": {
+        "name": "Hunter Shark",
+        "path": "assets/monsters/Hunter Shark.webp",
+        "hp": 67,
+        "speed": 1.58,
+        "radius": 12,
+        "cr": 17,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#BC8EBC"
+    },
+    "Young Brass Dragon": {
+        "name": "Young Brass Dragon",
+        "path": "assets/monsters/Young Brass Dragon.webp",
+        "hp": 222,
+        "speed": 0.786,
+        "radius": 27,
+        "cr": 14,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#79957B"
+    },
+    "Giant Octopus": {
+        "name": "Giant Octopus",
+        "path": "assets/monsters/Giant Octopus.webp",
+        "hp": 183,
+        "speed": 0.966,
+        "radius": 23,
+        "cr": 17,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#45BF7A"
+    },
+    "Cyclops": {
+        "name": "Cyclops",
+        "path": "assets/monsters/Cyclops.webp",
+        "hp": 38,
+        "speed": 1.54,
+        "radius": 12,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CEF64F"
+    },
+    "Swarm of Spiders": {
+        "name": "Swarm of Spiders",
+        "path": "assets/monsters/Swarm of Spiders.webp",
+        "hp": 39,
+        "speed": 1.73,
+        "radius": 17,
+        "cr": 12,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1341,
+            "hopDuration": 300,
+            "hopSpeedMult": 4
+        },
+        "color": "#57954F"
+    },
+    "Bat": {
+        "name": "Bat",
+        "path": "assets/monsters/Bat.webp",
+        "hp": 48,
+        "speed": 2.67,
+        "radius": 14,
+        "cr": 34,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3.37,
+            "zigzagFrequency": 0.0055
+        },
+        "color": "#4E8F6A"
+    },
+    "Wraith": {
+        "name": "Wraith",
+        "path": "assets/monsters/Wraith.webp",
+        "hp": 40,
+        "speed": 1.9,
+        "radius": 14,
+        "cr": 14,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#66FD86"
+    },
+    "Weasel": {
+        "name": "Weasel",
+        "path": "assets/monsters/Weasel.webp",
+        "hp": 31,
+        "speed": 1.08,
+        "radius": 16,
+        "cr": 4,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#474BEE"
+    },
+    "Hawk": {
+        "name": "Hawk",
+        "path": "assets/monsters/Hawk.webp",
+        "hp": 49,
+        "speed": 1.06,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#BFCE9E"
+    },
+    "Priest": {
+        "name": "Priest",
+        "path": "assets/monsters/Priest.webp",
+        "hp": 32,
+        "speed": 1.34,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 251
+        },
+        "color": "#74D8D5"
+    },
+    "Deep Gnome": {
+        "name": "Deep Gnome",
+        "path": "assets/monsters/Deep Gnome.webp",
+        "hp": 58,
+        "speed": 1.57,
+        "radius": 12,
+        "cr": 14,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#FFAA8D"
+    },
+    "Myconid Sovereign": {
+        "name": "Myconid Sovereign",
+        "path": "assets/monsters/Myconid Sovereign.webp",
+        "hp": 65,
+        "speed": 1.39,
+        "radius": 13,
+        "cr": 13,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#BEAA98"
+    },
+    "Clay Golem": {
+        "name": "Clay Golem",
+        "path": "assets/monsters/Clay Golem.webp",
+        "hp": 228,
+        "speed": 0.798,
+        "radius": 28,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#DDFEA9"
+    },
+    "Jackalwere": {
+        "name": "Jackalwere",
+        "path": "assets/monsters/Jackalwere.webp",
+        "hp": 33,
+        "speed": 1.73,
+        "radius": 14,
+        "cr": 10,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#7F8AB8"
+    },
+    "Giant Shark": {
+        "name": "Giant Shark",
+        "path": "assets/monsters/Giant Shark.webp",
+        "hp": 207,
+        "speed": 0.8220000000000001,
+        "radius": 24,
+        "cr": 14,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#B998B7"
+    },
+    "Assassin": {
+        "name": "Assassin",
+        "path": "assets/monsters/Assassin.webp",
+        "hp": 41,
+        "speed": 1.1,
+        "radius": 13,
+        "cr": 5,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4D8C8B"
+    },
+    "Giant Rat": {
+        "name": "Giant Rat",
+        "path": "assets/monsters/Giant Rat.webp",
+        "hp": 223,
+        "speed": 0.552,
+        "radius": 26,
+        "cr": 7,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#7CD55E"
+    },
+    "Panther": {
+        "name": "Panther",
+        "path": "assets/monsters/Panther.webp",
+        "hp": 76,
+        "speed": 1.4,
+        "radius": 15,
+        "cr": 15,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#F997D8"
+    },
+    "Octopus": {
+        "name": "Octopus",
+        "path": "assets/monsters/Octopus.webp",
+        "hp": 67,
+        "speed": 0.89,
+        "radius": 18,
+        "cr": 5,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#FE7C9E"
+    },
+    "Allosaurus": {
+        "name": "Allosaurus",
+        "path": "assets/monsters/Allosaurus.webp",
+        "hp": 45,
+        "speed": 0.82,
+        "radius": 12,
+        "cr": 3,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#FAE8AE"
+    },
+    "Stirge": {
+        "name": "Stirge",
+        "path": "assets/monsters/Stirge.webp",
+        "hp": 70,
+        "speed": 0.95,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#7FA9FD"
+    },
+    "Orc": {
+        "name": "Orc",
+        "path": "assets/monsters/Orc.webp",
+        "hp": 39,
+        "speed": 2.0,
+        "radius": 16,
+        "cr": 16,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A567A6"
+    },
+    "Invisible Stalker": {
+        "name": "Invisible Stalker",
+        "path": "assets/monsters/Invisible Stalker.webp",
+        "hp": 53,
+        "speed": 1.77,
+        "radius": 15,
+        "cr": 17,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#945BD5"
+    },
+    "Giant Wasp": {
+        "name": "Giant Wasp",
+        "path": "assets/monsters/Giant Wasp.webp",
+        "hp": 183,
+        "speed": 1.146,
+        "radius": 22,
+        "cr": 24,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9789B8"
+    },
+    "Dryad": {
+        "name": "Dryad",
+        "path": "assets/monsters/Dryad.webp",
+        "hp": 57,
+        "speed": 1.29,
+        "radius": 12,
+        "cr": 9,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#974698"
+    },
+    "Spectator": {
+        "name": "Spectator",
+        "path": "assets/monsters/Spectator.webp",
+        "hp": 47,
+        "speed": 1.43,
+        "radius": 18,
+        "cr": 10,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A978CA"
+    },
+    "Frog": {
+        "name": "Frog",
+        "path": "assets/monsters/Frog.webp",
+        "hp": 58,
+        "speed": 0.8,
+        "radius": 16,
+        "cr": 4,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1903,
+            "hopDuration": 300,
+            "hopSpeedMult": 4
+        },
+        "color": "#AFE955"
+    },
+    "Ankylosaurus": {
+        "name": "Ankylosaurus",
+        "path": "assets/monsters/Ankylosaurus.webp",
+        "hp": 41,
+        "speed": 1.92,
+        "radius": 15,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#DF76B4"
+    },
+    "Giant Elk": {
+        "name": "Giant Elk",
+        "path": "assets/monsters/Giant Elk.webp",
+        "hp": 198,
+        "speed": 1.14,
+        "radius": 22,
+        "cr": 26,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#47A9F8"
+    },
+    "Homunculus": {
+        "name": "Homunculus",
+        "path": "assets/monsters/Homunculus.webp",
+        "hp": 70,
+        "speed": 0.82,
+        "radius": 18,
+        "cr": 5,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#EFC798"
+    },
+    "Yuan-ti Malison (Type 3)": {
+        "name": "Yuan-ti Malison (Type 3)",
+        "path": "assets/monsters/Yuan-ti Malison (Type 3).webp",
+        "hp": 49,
+        "speed": 1.19,
+        "radius": 17,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#49F8C7"
+    },
+    "Guard": {
+        "name": "Guard",
+        "path": "assets/monsters/Guard.webp",
+        "hp": 40,
+        "speed": 1.18,
+        "radius": 16,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#FA6BCC"
+    },
+    "Giant Boar": {
+        "name": "Giant Boar",
+        "path": "assets/monsters/Giant Boar.webp",
+        "hp": 181,
+        "speed": 0.576,
+        "radius": 23,
+        "cr": 6,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A9D779"
+    },
+    "Quaggoth": {
+        "name": "Quaggoth",
+        "path": "assets/monsters/Quaggoth.webp",
+        "hp": 41,
+        "speed": 1.5,
+        "radius": 17,
+        "cr": 9,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#C6EB5A"
+    },
+    "Bugbear": {
+        "name": "Bugbear",
+        "path": "assets/monsters/Bugbear.webp",
+        "hp": 62,
+        "speed": 1.46,
+        "radius": 17,
+        "cr": 13,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#BCE44B"
+    },
+    "Giant Poisonous Snake": {
+        "name": "Giant Poisonous Snake",
+        "path": "assets/monsters/Giant Poisonous Snake.webp",
+        "hp": 210,
+        "speed": 0.9839999999999999,
+        "radius": 24,
+        "cr": 20,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#BC56CD"
+    },
+    "Salamander": {
+        "name": "Salamander",
+        "path": "assets/monsters/Salamander.webp",
+        "hp": 75,
+        "speed": 1.73,
+        "radius": 15,
+        "cr": 22,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#68A756"
+    },
+    "Kuo-toa Archpriest": {
+        "name": "Kuo-toa Archpriest",
+        "path": "assets/monsters/Kuo-toa Archpriest.webp",
+        "hp": 32,
+        "speed": 1.05,
+        "radius": 14,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#F57B8A"
+    },
+    "Nightmare": {
+        "name": "Nightmare",
+        "path": "assets/monsters/Nightmare.webp",
+        "hp": 50,
+        "speed": 1.18,
+        "radius": 12,
+        "cr": 7,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CC6E98"
+    },
+    "Cloaker": {
+        "name": "Cloaker",
+        "path": "assets/monsters/Cloaker.webp",
+        "hp": 54,
+        "speed": 1.44,
+        "radius": 18,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#DDB5AC"
+    },
+    "Hobgoblin": {
+        "name": "Hobgoblin",
+        "path": "assets/monsters/Hobgoblin.webp",
+        "hp": 67,
+        "speed": 1.47,
+        "radius": 13,
+        "cr": 14,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A6E5F4"
+    },
+    "Mummy": {
+        "name": "Mummy",
+        "path": "assets/monsters/Mummy.webp",
+        "hp": 51,
+        "speed": 1.94,
+        "radius": 15,
+        "cr": 19,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#FBED6C"
+    },
+    "Darkmantle": {
+        "name": "Darkmantle",
+        "path": "assets/monsters/Darkmantle.webp",
+        "hp": 44,
+        "speed": 0.82,
+        "radius": 15,
+        "cr": 3,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#B7467A"
+    },
+    "Unicorn": {
+        "name": "Unicorn",
+        "path": "assets/monsters/Unicorn.webp",
+        "hp": 33,
+        "speed": 1.9,
+        "radius": 17,
+        "cr": 12,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#7CF6CB"
+    },
+    "Swarm of Ravens": {
+        "name": "Swarm of Ravens",
+        "path": "assets/monsters/Swarm of Ravens.webp",
+        "hp": 77,
+        "speed": 1.48,
+        "radius": 14,
+        "cr": 17,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#FF8BD9"
+    },
+    "Chasme": {
+        "name": "Chasme",
+        "path": "assets/monsters/Chasme.webp",
+        "hp": 80,
+        "speed": 1.87,
+        "radius": 12,
+        "cr": 28,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#B57C87"
+    },
+    "Giant Goat": {
+        "name": "Giant Goat",
+        "path": "assets/monsters/Giant Goat.webp",
+        "hp": 214,
+        "speed": 0.654,
+        "radius": 27,
+        "cr": 9,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A96865"
+    },
+    "Pentadrone": {
+        "name": "Pentadrone",
+        "path": "assets/monsters/Pentadrone.webp",
+        "hp": 79,
+        "speed": 1.87,
+        "radius": 16,
+        "cr": 28,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#F76FB6"
+    },
+    "Gray Ooze": {
+        "name": "Gray Ooze",
+        "path": "assets/monsters/Gray Ooze.webp",
+        "hp": 55,
+        "speed": 1.62,
+        "radius": 14,
+        "cr": 14,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#47885B"
+    },
+    "Vampire Spawn": {
+        "name": "Vampire Spawn",
+        "path": "assets/monsters/Vampire Spawn.webp",
+        "hp": 36,
+        "speed": 0.89,
+        "radius": 14,
+        "cr": 3,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#CFABDA"
+    },
+    "Half-Ogre": {
+        "name": "Half-Ogre",
+        "path": "assets/monsters/Half-Ogre.webp",
+        "hp": 41,
+        "speed": 1.4,
+        "radius": 13,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A7BCC"
+    },
+    "Drow Elite Warrior": {
+        "name": "Drow Elite Warrior",
+        "path": "assets/monsters/Drow Elite Warrior.webp",
+        "hp": 63,
+        "speed": 1.11,
+        "radius": 14,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#87789D"
+    },
+    "Gorgon": {
+        "name": "Gorgon",
+        "path": "assets/monsters/Gorgon.webp",
+        "hp": 35,
+        "speed": 1.48,
+        "radius": 14,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#466AF4"
+    },
+    "Swarm of Bats": {
+        "name": "Swarm of Bats",
+        "path": "assets/monsters/Swarm of Bats.webp",
+        "hp": 77,
+        "speed": 1.41,
+        "radius": 17,
+        "cr": 15,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 4.92,
+            "zigzagFrequency": 0.008
+        },
+        "color": "#CA9578"
+    },
+    "Werewolf": {
+        "name": "Werewolf",
+        "path": "assets/monsters/Werewolf.webp",
+        "hp": 40,
+        "speed": 1.46,
+        "radius": 16,
+        "cr": 9,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#9977E4"
+    },
+    "Abominable Yeti": {
+        "name": "Abominable Yeti",
+        "path": "assets/monsters/Abominable Yeti.webp",
+        "hp": 79,
+        "speed": 0.99,
+        "radius": 17,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#B7E955"
+    },
+    "Swarm of Quippers": {
+        "name": "Swarm of Quippers",
+        "path": "assets/monsters/Swarm of Quippers.webp",
+        "hp": 59,
+        "speed": 1.88,
+        "radius": 16,
+        "cr": 21,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E8C5B5"
+    },
+    "Riding Horse": {
+        "name": "Riding Horse",
+        "path": "assets/monsters/Riding Horse.webp",
+        "hp": 55,
+        "speed": 0.88,
+        "radius": 12,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#ECFB78"
+    },
+    "Githzerai Monk": {
+        "name": "Githzerai Monk",
+        "path": "assets/monsters/Githzerai Monk.webp",
+        "hp": 34,
+        "speed": 1.82,
+        "radius": 14,
+        "cr": 11,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#4FD8D9"
+    },
+    "Bullywug": {
+        "name": "Bullywug",
+        "path": "assets/monsters/Bullywug.webp",
+        "hp": 32,
+        "speed": 1.04,
+        "radius": 17,
+        "cr": 3,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A9A5C"
+    },
+    "Air Elemental": {
+        "name": "Air Elemental",
+        "path": "assets/monsters/Air Elemental.webp",
+        "hp": 61,
+        "speed": 1.53,
+        "radius": 13,
+        "cr": 14,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#46FDED"
+    },
+    "Thug": {
+        "name": "Thug",
+        "path": "assets/monsters/Thug.webp",
+        "hp": 69,
+        "speed": 1.67,
+        "radius": 13,
+        "cr": 19,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#9CAF9D"
+    },
+    "Thri-kreen": {
+        "name": "Thri-kreen",
+        "path": "assets/monsters/Thri-kreen.webp",
+        "hp": 51,
+        "speed": 1.64,
+        "radius": 18,
+        "cr": 14,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#CA6CB9"
+    },
+    "Githyanki Knight": {
+        "name": "Githyanki Knight",
+        "path": "assets/monsters/Githyanki Knight.webp",
+        "hp": 72,
+        "speed": 1.07,
+        "radius": 15,
+        "cr": 8,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#48F8BF"
+    },
+    "Jackal": {
+        "name": "Jackal",
+        "path": "assets/monsters/Jackal.webp",
+        "hp": 47,
+        "speed": 1.26,
+        "radius": 13,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#48BEAA"
+    },
+    "Death Slaad": {
+        "name": "Death Slaad",
+        "path": "assets/monsters/Death Slaad.webp",
+        "hp": 36,
+        "speed": 1.54,
+        "radius": 14,
+        "cr": 9,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 339
+        },
+        "color": "#BFBBA6"
+    },
+    "Mastiff": {
+        "name": "Mastiff",
+        "path": "assets/monsters/Mastiff.webp",
+        "hp": 35,
+        "speed": 1.13,
+        "radius": 13,
+        "cr": 4,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4ECCDA"
+    },
+    "Berserker": {
+        "name": "Berserker",
+        "path": "assets/monsters/Berserker.webp",
+        "hp": 37,
+        "speed": 1.68,
+        "radius": 14,
+        "cr": 10,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#CB4655"
+    },
+    "Brass Dragon Wyrmling": {
+        "name": "Brass Dragon Wyrmling",
+        "path": "assets/monsters/Brass Dragon Wyrmling.webp",
+        "hp": 183,
+        "speed": 1.152,
+        "radius": 28,
+        "cr": 24,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#9EFB7C"
+    },
+    "Giant Owl": {
+        "name": "Giant Owl",
+        "path": "assets/monsters/Giant Owl.webp",
+        "hp": 209,
+        "speed": 0.948,
+        "radius": 27,
+        "cr": 19,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#4569AC"
+    },
+    "Giant Scorpion": {
+        "name": "Giant Scorpion",
+        "path": "assets/monsters/Giant Scorpion.webp",
+        "hp": 216,
+        "speed": 0.618,
+        "radius": 26,
+        "cr": 8,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#BF99FB"
+    },
+    "Succubus": {
+        "name": "Succubus",
+        "path": "assets/monsters/Succubus.webp",
+        "hp": 69,
+        "speed": 1.51,
+        "radius": 13,
+        "cr": 16,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#95E8A8"
+    },
+    "Giant Wolf Spider": {
+        "name": "Giant Wolf Spider",
+        "path": "assets/monsters/Giant Wolf Spider.webp",
+        "hp": 196,
+        "speed": 0.8220000000000001,
+        "radius": 26,
+        "cr": 13,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#995E7C"
+    },
+    "Deer": {
+        "name": "Deer",
+        "path": "assets/monsters/Deer.webp",
+        "hp": 75,
+        "speed": 0.82,
+        "radius": 14,
+        "cr": 5,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#6ECB7F"
+    },
+    "Frost Giant": {
+        "name": "Frost Giant",
+        "path": "assets/monsters/Frost Giant.webp",
+        "hp": 210,
+        "speed": 0.888,
+        "radius": 25,
+        "cr": 17,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#C65DE6"
+    },
+    "Lion": {
+        "name": "Lion",
+        "path": "assets/monsters/Lion.webp",
+        "hp": 48,
+        "speed": 0.86,
+        "radius": 15,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#FF68AF"
+    },
+    "Barbed Devil": {
+        "name": "Barbed Devil",
+        "path": "assets/monsters/Barbed Devil.webp",
+        "hp": 55,
+        "speed": 1.1,
+        "radius": 17,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#C88DB6"
+    },
+    "Drow Mage": {
+        "name": "Drow Mage",
+        "path": "assets/monsters/Drow Mage.webp",
+        "hp": 53,
+        "speed": 0.84,
+        "radius": 14,
+        "cr": 4,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 393
+        },
+        "color": "#BBC454"
+    },
+    "Hydra": {
+        "name": "Hydra",
+        "path": "assets/monsters/Hydra.webp",
+        "hp": 32,
+        "speed": 1.32,
+        "radius": 14,
+        "cr": 6,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A4D67"
+    },
+    "Duergar": {
+        "name": "Duergar",
+        "path": "assets/monsters/Duergar.webp",
+        "hp": 80,
+        "speed": 1.31,
+        "radius": 18,
+        "cr": 14,
+        "move_pattern": "HOPPER",
+        "move_params": {
+            "hopCooldown": 1500,
+            "hopDuration": 400,
+            "hopSpeedMult": 3.5
+        },
+        "color": "#FA765C"
+    },
+    "Badger": {
+        "name": "Badger",
+        "path": "assets/monsters/Badger.webp",
+        "hp": 34,
+        "speed": 1.37,
+        "radius": 15,
+        "cr": 6,
+        "move_pattern": "ORBITER",
+        "move_params": {
+            "orbitRadius": 300
+        },
+        "color": "#9BA7E5"
+    },
+    "Young Silver Dragon": {
+        "name": "Young Silver Dragon",
+        "path": "assets/monsters/Young Silver Dragon.webp",
+        "hp": 182,
+        "speed": 0.876,
+        "radius": 27,
+        "cr": 14,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#B77856"
+    },
+    "Veteran": {
+        "name": "Veteran",
+        "path": "assets/monsters/Veteran.webp",
+        "hp": 31,
+        "speed": 1.33,
+        "radius": 15,
+        "cr": 5,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#4A74D8"
+    },
+    "Poltergeist": {
+        "name": "Poltergeist",
+        "path": "assets/monsters/Poltergeist.webp",
+        "hp": 34,
+        "speed": 0.9,
+        "radius": 12,
+        "cr": 3,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#88C684"
+    },
+    "Silver Dragon Wyrmling": {
+        "name": "Silver Dragon Wyrmling",
+        "path": "assets/monsters/Silver Dragon Wyrmling.webp",
+        "hp": 209,
+        "speed": 0.9299999999999999,
+        "radius": 23,
+        "cr": 18,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#79F99A"
+    },
+    "Death Dog": {
+        "name": "Death Dog",
+        "path": "assets/monsters/Death Dog.webp",
+        "hp": 52,
+        "speed": 1.34,
+        "radius": 13,
+        "cr": 9,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#C4FFD5"
+    },
+    "Flying Snake": {
+        "name": "Flying Snake",
+        "path": "assets/monsters/Flying Snake.webp",
+        "hp": 54,
+        "speed": 2.685,
+        "radius": 14,
+        "cr": 39,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3.82,
+            "zigzagFrequency": 0.0106
+        },
+        "color": "#44844C"
+    },
+    "Bone Naga": {
+        "name": "Bone Naga",
+        "path": "assets/monsters/Bone Naga.webp",
+        "hp": 69,
+        "speed": 1.76,
+        "radius": 17,
+        "cr": 21,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#4CE46B"
+    },
+    "Elephant": {
+        "name": "Elephant",
+        "path": "assets/monsters/Elephant.webp",
+        "hp": 71,
+        "speed": 1.91,
+        "radius": 16,
+        "cr": 26,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#ACF54C"
+    },
+    "Guardian Naga": {
+        "name": "Guardian Naga",
+        "path": "assets/monsters/Guardian Naga.webp",
+        "hp": 79,
+        "speed": 0.91,
+        "radius": 17,
+        "cr": 7,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#8989BC"
+    },
+    "Yeti": {
+        "name": "Yeti",
+        "path": "assets/monsters/Yeti.webp",
+        "hp": 31,
+        "speed": 1.35,
+        "radius": 17,
+        "cr": 6,
+        "move_pattern": "CHARGER",
+        "move_params": {
+            "chargeDistance": 250,
+            "chargeSpeedMult": 3,
+            "chargeCooldown": 2500,
+            "chargeDuration": 500
+        },
+        "color": "#5E74DA"
+    },
+    "Goblin Boss": {
+        "name": "Goblin Boss",
+        "path": "assets/monsters/Goblin Boss.webp",
+        "hp": 46,
+        "speed": 1.68,
+        "radius": 15,
+        "cr": 13,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#A6FA84"
+    },
+    "Githzerai Zerth": {
+        "name": "Githzerai Zerth",
+        "path": "assets/monsters/Githzerai Zerth.webp",
+        "hp": 50,
+        "speed": 1.47,
+        "radius": 12,
+        "cr": 11,
+        "move_pattern": "DIRECT",
+        "move_params": {},
+        "color": "#E64DA5"
+    },
+    "Cloud Giant": {
+        "name": "Cloud Giant",
+        "path": "assets/monsters/Cloud Giant.webp",
+        "hp": 217,
+        "speed": 0.8220000000000001,
+        "radius": 27,
+        "cr": 15,
+        "move_pattern": "SLOW_APPROACH",
+        "move_params": {},
+        "color": "#A8758C"
+    },
+    "Pseudodragon": {
+        "name": "Pseudodragon",
+        "path": "assets/monsters/Pseudodragon.webp",
+        "hp": 57,
+        "speed": 1.89,
+        "radius": 15,
+        "cr": 20,
+        "move_pattern": "ZIGZAG",
+        "move_params": {
+            "zigzagAmplitude": 3,
+            "zigzagFrequency": 0.01
+        },
+        "color": "#A5D95C"
+    }
+}
